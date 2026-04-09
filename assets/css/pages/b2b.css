@@ -1,0 +1,558 @@
+/* ============================================
+   B2B PAGE - HERO
+   ============================================ */
+
+.b2b-hero {
+    padding: 100px 0;
+    background: linear-gradient(135deg, var(--accent-light) 0%, transparent 100%);
+    text-align: center;
+}
+
+.b2b-hero-content h1 {
+    font-family: var(--font-serif);
+    font-size: 56px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 30px;
+    line-height: 1.3;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b2b-hero-subtitle {
+    font-size: 22px;
+    color: var(--primary);
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.b2b-hero-description {
+    font-size: 16px;
+    color: var(--text-gray);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* ============================================
+   B2B CONTENT BLOCKS
+   ============================================ */
+
+.b2b-block {
+    padding: 100px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.b2b-block:nth-child(even) {
+    background-color: var(--accent-light);
+}
+
+.b2b-block h2 {
+    font-family: var(--font-serif);
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.b2b-intro {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.b2b-intro p {
+    font-size: 16px;
+    color: var(--text-gray);
+    line-height: 1.8;
+}
+
+/* ============================================
+   B2B CONTENT
+   ============================================ */
+
+.b2b-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.b2b-text h2 {
+    font-family: var(--font-serif);
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 20px;
+}
+
+.b2b-text p {
+    font-size: 15px;
+    color: var(--text-gray);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.b2b-text p:last-child {
+    margin-bottom: 0;
+}
+
+.b2b-accent {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 30px;
+}
+
+.b2b-stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 24px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(192, 130, 138, 0.2);
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.stat-badge {
+    font-family: var(--font-serif);
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1;
+}
+
+.stat-desc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 18ch;
+}
+
+/* ============================================
+   B2B FORMATS GRID
+   ============================================ */
+
+.b2b-formats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.b2b-format-card {
+    background: white;
+    padding: 35px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.b2b-format-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(192, 130, 138, 0.18);
+    border-color: var(--primary);
+}
+
+.format-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.format-icon svg {
+    width: 100%;
+    height: 100%;
+    stroke: var(--primary);
+    color: var(--primary);
+}
+
+.b2b-format-card h3 {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 15px;
+}
+
+.b2b-format-card p {
+    font-size: 15px;
+    color: var(--text-gray);
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.format-list {
+    list-style: none;
+}
+
+.format-list li {
+    font-size: 14px;
+    color: var(--text-gray);
+    margin-bottom: 10px;
+    padding-left: 24px;
+    position: relative;
+    text-align: left;
+}
+
+.format-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ============================================
+   B2B SUPPORT GRID
+   ============================================ */
+
+.b2b-support-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.support-item {
+    background: linear-gradient(135deg, var(--accent-light) 0%, white 100%);
+    padding: 30px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.support-item:hover {
+    border-color: var(--primary);
+    box-shadow: 0 12px 32px rgba(192, 130, 138, 0.12);
+}
+
+.support-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 16px;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-icon svg {
+    width: 100%;
+    height: 100%;
+    stroke: var(--primary);
+    color: var(--primary);
+}
+
+.support-item h3 {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 12px;
+}
+
+.support-item p {
+    font-size: 14px;
+    color: var(--text-gray);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.b2b-block-geo .b2b-intro {
+    margin-bottom: 28px;
+}
+
+.distribution-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 28px;
+}
+
+.distribution-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(170, 120, 132, 0.1);
+}
+
+.distribution-card h3 {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    color: var(--primary-dark);
+    margin-bottom: 10px;
+}
+
+.distribution-card p {
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--text-gray);
+    margin: 0;
+}
+
+.geo-actions {
+    text-align: center;
+}
+
+.b2b-block-4 .form-info {
+    background: linear-gradient(160deg, #fff6f8 0%, #ffe9ef 55%, #f7dde6 100%);
+    border: 1px solid rgba(192, 130, 138, 0.35);
+    box-shadow: 0 20px 40px rgba(192, 130, 138, 0.16);
+    position: relative;
+    overflow: hidden;
+}
+
+.b2b-block-4 .form-info::before {
+    content: "";
+    position: absolute;
+    inset: -80px -30px auto auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 999px;
+    background: radial-gradient(circle, rgba(192, 130, 138, 0.3) 0%, rgba(192, 130, 138, 0) 70%);
+    pointer-events: none;
+}
+
+.b2b-block-4 .form-info .info-block {
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(192, 130, 138, 0.22);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.b2b-block-4 .form-info .info-block:last-child {
+    margin-bottom: 0;
+}
+
+.b2b-block-4 .form-info .info-block h4 {
+    color: var(--primary);
+}
+
+.b2b-block-4 .form-info .info-block p {
+    color: var(--primary-dark);
+}
+
+.b2b-block-4 .faq-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.b2b-block-4 .faq-list li {
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--primary-dark);
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(192, 130, 138, 0.2);
+    border-radius: 8px;
+    padding: 0;
+}
+
+.b2b-block-4 .quick-answer-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px 12px;
+    border: none;
+    background: transparent;
+    color: var(--primary-dark);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.b2b-block-4 .quick-answer-btn:hover {
+    color: var(--primary);
+}
+
+.b2b-block-4 .quick-answer-text {
+    display: none;
+    margin: 0;
+    padding: 0 12px 12px;
+    color: #6f5b5f;
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.b2b-block-4 .quick-answer-item.active .quick-answer-text {
+    display: block;
+}
+
+/* ============================================
+   B2B PAGE RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+    .b2b-hero-content h1 {
+        font-size: 44px;
+    }
+
+    .b2b-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .b2b-formats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .b2b-support-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .distribution-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .b2b-text h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .b2b-hero {
+        padding: 60px 0;
+    }
+
+    .b2b-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .b2b-block {
+        padding: 60px 0;
+    }
+
+    .b2b-block h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .b2b-formats-grid,
+    .b2b-support-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .b2b-format-card,
+    .support-item {
+        padding: 24px;
+    }
+
+    .b2b-format-card h3,
+    .support-item h3 {
+        font-size: 18px;
+    }
+
+    .b2b-text h2 {
+        font-size: 26px;
+    }
+
+    .b2b-accent {
+        gap: 16px;
+    }
+
+    .distribution-card {
+        padding: 20px;
+    }
+
+    .format-list li,
+    .support-item p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .b2b-hero {
+        padding: 50px 0;
+    }
+
+    .b2b-hero-content h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .b2b-hero-subtitle {
+        font-size: 16px;
+    }
+
+    .b2b-hero-description {
+        font-size: 13px;
+    }
+
+    .b2b-block {
+        padding: 50px 0;
+    }
+
+    .b2b-text h2 {
+        font-size: 20px;
+    }
+
+    .b2b-text p {
+        font-size: 13px;
+    }
+
+    .b2b-format-card h3,
+    .support-item h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .b2b-format-card p {
+        font-size: 13px;
+        margin-bottom: 14px;
+    }
+
+    .b2b-accent {
+        grid-template-columns: 1fr;
+    }
+
+    .format-list li {
+        font-size: 12px;
+        margin-bottom: 8px;
+        padding-left: 20px;
+    }
+
+    .b2b-stat-card {
+        aspect-ratio: auto;
+        min-height: 180px;
+        padding: 24px 20px;
+    }
+
+    .stat-badge {
+        font-size: 44px;
+    }
+
+    .stat-desc {
+        font-size: 14px;
+    }
+
+    .b2b-block-4 .form-info .info-block {
+        padding: 16px;
+    }
+
+    .b2b-block-4 .faq-list li {
+        font-size: 13px;
+    }
+}

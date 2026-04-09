@@ -1,0 +1,300 @@
+/* ============================================
+   CARD COMPONENTS
+   ============================================ */
+
+.section-card {
+    padding: 0;
+}
+
+
+.inst-section-card{
+    padding-left: 48px;
+}
+
+.card-elevated {
+    background: var(--text-light);
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.card-bordered {
+    /* background: var(--text-light); */
+    padding-left: 48px;
+    border-radius: 16px;
+    /* border: 2px solid var(--border); */
+    position: relative;
+}
+
+.card-accent {
+    background: linear-gradient(135deg, rgba(192, 130, 138, 0.05) 0%, rgba(232, 190, 202, 0.08) 100%);
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.card-shadow {
+    background: var(--text-light);
+    padding: 48px;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(192, 130, 138, 0.15);
+}
+
+.accent-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 60px;
+    background-color: var(--primary);
+    border-radius: 4px;
+}
+
+.product-preview-card {
+    display: block;
+    text-decoration: none;
+    color: var(--text-dark);
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: var(--text-light);
+    border: 1px solid var(--border);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.09);
+    transition: var(--transition);
+}
+
+.product-preview-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 48px rgba(192, 130, 138, 0.22);
+}
+
+.product-preview-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.product-preview-content {
+    padding: 24px;
+}
+
+.product-preview-content h3 {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    color: var(--primary-dark);
+}
+
+.product-preview-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-gray);
+}
+
+.catalog-card {
+    display: block;
+    text-decoration: none;
+    color: var(--text-dark);
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: var(--text-light);
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.07);
+    transition: var(--transition);
+}
+
+.catalog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(192, 130, 138, 0.18);
+}
+
+.catalog-card img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    aspect-ratio: 4 / 3;
+}
+
+.catalog-card-body {
+    padding: 20px;
+}
+
+.catalog-card-title {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    color: var(--primary-dark);
+}
+
+.catalog-card-note {
+    font-size: 13px;
+    color: var(--text-gray);
+}
+
+.color-card {
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: var(--text-light);
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+    transition: var(--transition);
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
+.color-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 36px rgba(192, 130, 138, 0.2);
+}
+
+.color-preview {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background-color: var(--accent-light);
+}
+
+.color-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.color-card:hover .color-preview img {
+    transform: scale(1.05);
+}
+
+.color-card-body {
+    padding: 16px;
+}
+
+.color-title {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    color: var(--primary-dark);
+}
+
+.gallery-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--text-light);
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.07);
+    transition: var(--transition);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery-caption {
+    padding: 12px;
+    font-size: 12px;
+    color: var(--text-gray);
+    text-align: center;
+}
+
+.benefit-card {
+    background: var(--accent-light);
+    padding: 40px;
+    border-radius: 14px;
+    transition: var(--transition);
+}
+
+.benefit-card h3 {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+    color: var(--primary-dark);
+}
+
+.benefit-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-dark);
+}
+
+/* ============================================
+   CARDS RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+    .card-elevated,
+    .card-bordered,
+    .card-accent,
+    .card-shadow {
+        padding: 32px;
+    }
+
+    .product-preview-card {
+        border-radius: 14px;
+    }
+
+    .product-preview-image {
+        height: 220px;
+    }
+
+    .product-preview-content {
+        padding: 18px;
+    }
+
+    .product-preview-content h3 {
+        font-size: 20px;
+    }
+
+    .color-card {
+        border-radius: 10px;
+    }
+
+    .color-preview {
+        height: 140px;
+    }
+
+    .benefit-card {
+        padding: 28px;
+    }
+
+    .benefit-card h3 {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-elevated,
+    .card-bordered,
+    .card-accent,
+    .card-shadow {
+        padding: 20px;
+    }
+
+    .product-preview-image {
+        height: 180px;
+    }
+
+    .product-preview-content h3 {
+        font-size: 18px;
+    }
+
+    .color-preview {
+        height: 120px;
+    }
+
+    .benefit-card {
+        padding: 20px;
+    }
+
+    .benefit-card h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .benefit-card p {
+        font-size: 14px;
+    }
+}

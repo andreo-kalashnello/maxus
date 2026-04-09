@@ -1,0 +1,1757 @@
+/* ============================================
+   HOME PAGE - ABOUT SECTION
+   ============================================ */
+
+.home-page .about-section {
+    position: relative;
+    padding: 82px 0;
+    background: #fffaf7;
+    overflow: hidden;
+}
+
+.home-page .about-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.04;
+}
+
+.home-page .about-shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.15;
+}
+
+.home-page .about-shape-1 {
+    width: 500px;
+    height: 500px;
+    background-color: var(--primary);
+    top: -100px;
+    right: -100px;
+}
+
+.home-page .about-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-color: var(--accent);
+    bottom: -50px;
+    left: 5%;
+}
+
+.home-page .about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.home-page .about-content {
+    max-width: none;
+}
+
+.home-page .about-title {
+    font-family: var(--font-sans);
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    line-height: 1.04;
+}
+
+.home-page .about-intro {
+    max-width: none;
+}
+
+.home-page .about-intro p {
+    font-size: 16px;
+    color: var(--text-gray);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.home-page .about-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.home-page .about-actions .about-btn {
+    min-width: 220px;
+    height: 56px;
+    font-size: 14px;
+}
+
+.home-page .about-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 310px;
+    height: 84px;
+    padding: 0 30px;
+    background-color: transparent;
+    border: 2px solid #d17284;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    font-family: var(--font-sans);
+}
+
+.home-page .about-btn-primary {
+    background-color: #d17284;
+    color: var(--text-light);
+    border-color: #d17284;
+}
+
+.home-page .about-btn-primary:hover {
+    background-color: #c76578;
+    border-color: #c76578;
+    box-shadow: none;
+}
+
+.home-page .about-btn-outline {
+    color: #d17284;
+    background-color: #fff;
+}
+
+.home-page .about-btn-outline:hover {
+    background-color: #f5f5f5;
+    border-color: #d17284;
+    color: #c76578;
+}
+
+.home-page .about-image {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 26px;
+}
+
+.home-page .about-pagination {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.home-page .about-pagination-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #edd9de;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-page .about-pagination-dot.active {
+    background-color: #d17284;
+}
+
+.home-page .about-product-image {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: 460px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.home-page .about-image-no-shadow {
+    box-shadow: none;
+}
+
+/* ============================================
+   HOME PAGE - TRUST STRIP
+   ============================================ */
+
+.home-page .trust-strip {
+    padding: 60px 0;
+    background: #fffaf7;
+    position: relative;
+    z-index: 3;
+}
+
+.home-page .trust-strip .trust-strip-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ede4e4;
+    min-height: 120px;
+    border-radius: 0;
+}
+
+.home-page .trust-strip .trust-strip-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 28px 32px;
+    min-height: 120px;
+}
+
+.home-page .trust-strip .trust-strip-item:first-child {
+    border-right: none;
+}
+
+.home-page .trust-strip .trust-strip-icon {
+    color: #d09aa5;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.home-page .trust-strip .trust-strip-item p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5e5c62;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.home-page .trust-strip-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 20px;
+    height: 64px;
+    min-width: 240px;
+    padding: 0 32px;
+    background-color: #d17284;
+    color: #fff;
+    border: 2px solid #d17284;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+
+.home-page .trust-strip-cta:hover {
+    background-color: var(--primary-dark);
+    transform: scale(1.03);
+}
+
+/* ============================================
+   HOME PAGE - COMPANY SECTION
+   ============================================ */
+
+.home-page .company-section {
+    padding: 100px 0;
+    background: #fffaf7;
+    overflow: hidden;
+}
+
+.home-page .company-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.home-page .company-content {
+    max-width: 550px;
+}
+
+.home-page .company-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #979392;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.home-page .company-brand {
+    font-family: var(--font-sans);
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.home-page .company-points {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.home-page .company-points li {
+    font-size: 20px;
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin-bottom: 12px;
+    padding-left: 26px;
+    position: relative;
+}
+
+.home-page .company-points li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 2px solid #d17284;
+    border-radius: 50%;
+}
+
+.home-page .company-content .about-btn {
+    min-width: 220px;
+    height: 56px;
+    font-size: 14px;
+}
+
+.home-page .company-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: var(--transition);
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.home-page .company-link:hover {
+    background-color: var(--accent-light);
+    gap: 14px;
+}
+
+.home-page .company-image {
+    width: calc(50% + (100vw - 100%) / 2);
+    margin-right: calc((100vw - 100%) / -2);
+}
+
+.home-page .company-image-img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.home-page .section-image {
+    width: calc(50% + (100vw - 100%) / 2);
+}
+
+.home-page .section-image img{
+    aspect-ratio: 16 / 9;
+}
+
+.home-page .section-image.image-right {
+    margin-right: calc((100vw - 100%) / -2);
+    margin-left: 0;
+}
+
+.home-page .section-image.image-left {
+    width: calc(100% + (100vw - 100%) / 2);
+    margin-left: calc((100vw - 100%) / -2);
+    margin-right: 0;
+}
+
+.home-page .section-1,
+.home-page .section-2,
+.home-page .section-3,
+.home-page .section-4 {
+    gap: 0;
+}
+
+.home-page .section-image .image-card,
+.home-page .construction-image .image-card-light,
+.home-page .about-product-image,
+.home-page .company-image-img {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.home-page .section-image .image-card,
+.home-page .construction-image .image-card-light {
+    display: block;
+    width: 100%;
+    max-width: none;
+}
+
+.home-page .image-overlay,
+.home-page .image-overlay-dark {
+    display: none;
+}
+
+/* ============================================
+   HOME PAGE - PRODUCTS PREVIEW CATEGORIES
+   ============================================ */
+
+.home-page .products-preview {
+    background: #fffaf7;
+}
+
+.home-page .products-preview-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 26px;
+}
+
+.home-page .products-preview-head .section-accent {
+    margin-bottom: 0;
+    font-size: 56px;
+    text-align: left;
+    line-height: 1.05;
+}
+
+.home-page .products-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+}
+
+.home-page .products-preview .product-preview-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 170px;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    text-decoration: none;
+    color: var(--text-dark);
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.home-page .products-preview .product-preview-icon {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fdf1f4;
+    color: #d17284;
+    margin-bottom: 12px;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.home-page .products-preview .product-preview-icon svg {
+    width: 34px;
+    height: 34px;
+}
+
+.home-page .products-preview .product-preview-title {
+    display: block;
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #3d3b40;
+}
+
+.home-page .products-preview .product-preview-card:hover {
+    background: transparent;
+    box-shadow: 0 8px 16px rgba(94, 92, 98, 0.08);
+    transform: none;
+    border: 1px solid #e6d9dd;
+}
+
+.home-page .products-preview .product-preview-card:hover .product-preview-icon {
+    background: #f8e7ec;
+    color: #bf6072;
+    transform: scale(1.04);
+}
+
+.home-page .products-preview-divider {
+    border-top: 1px solid #e9e2e2;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.home-page .products-preview .products-preview-actions {
+    margin-top: 28px;
+    text-align: center;
+}
+
+/* ============================================
+   HOME PAGE - CONSTRUCTION & SERVICE CARDS
+   ============================================ */
+
+.home-page .construction-section {
+    padding: 88px 0;
+    background: #f5f5f6;
+}
+
+.home-page .service-section {
+    padding: 88px 0;
+    background: #fff;
+}
+
+.home-page .construction-header {
+    margin-bottom: 42px;
+}
+
+.home-page .construction-section .section-accent-white {
+    color: var(--text-dark);
+}
+
+.home-page .construction-section .section-intro-white {
+    color: #c2b2b7;
+}
+
+.home-page .construction-section .section-5-full .section-text-white {
+    color: var(--text-dark);
+    opacity: 0.92;
+}
+
+.home-page .construction-detail-layout {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 36px;
+    align-items: center;
+}
+
+.home-page .construction-detail-title {
+    margin: 0 0 16px;
+    color: var(--text-dark);
+    font-family: var(--font-sans);
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.home-page .construction-detail-content .section-text-white {
+    color: var(--text-dark);
+    opacity: 0.92;
+    margin-bottom: 18px;
+}
+
+.home-page .construction-detail-content .section-text-white:last-child {
+    margin-bottom: 0;
+}
+
+.home-page .construction-grid,
+.home-page .service-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.home-page .construction-card,
+.home-page .service-card {
+    min-height: 192px;
+    padding: 24px 20px;
+    border-radius: 12px;
+    border: 1px solid #e6d9dd;
+    background: #fff;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.home-page .construction-card:hover,
+.home-page .service-card:hover {
+    transform: translateY(-6px);
+    border-color: #d6a5af;
+    box-shadow: 0 16px 34px rgba(192, 130, 138, 0.18);
+}
+
+.home-page .card-svg-icon,
+.home-page .service-svg-icon {
+    transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.home-page .construction-card:hover .card-svg-icon,
+.home-page .service-card:hover .service-svg-icon {
+    transform: scale(1.08);
+    color: var(--primary-dark);
+}
+
+.home-page .construction-card h3,
+.home-page .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.home-page .construction-card p,
+.home-page .service-card p {
+    font-size: 13px;
+    line-height: 1.45;
+    margin-bottom: 0;
+}
+
+.home-page .construction-image {
+    display: flex;
+    justify-content: center;
+}
+
+.home-page .construction-image .image-card-light {
+    width: 100%;
+    max-width: 760px;
+    max-height: 420px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.home-page .service-wrapper {
+    max-width: none;
+    margin: 0;
+    text-align: center;
+}
+
+.home-page .service-wrapper > .section-accent {
+    text-align: left;
+    margin-left: 0;
+    max-width: none;
+}
+
+.home-page .service-wrapper > .section-text {
+    max-width: 100%;
+}
+
+.home-page .service-cards {
+    margin-top: 24px;
+}
+
+.home-page .service-section .cta-section {
+    padding: 42px 0 8px;
+    color: var(--text-dark);
+}
+
+.home-page .service-section .cta-text {
+    color: var(--text-gray);
+    opacity: 1;
+}
+
+/* ============================================
+   HOME PAGE - B2B PRIORITY + FORM
+   ============================================ */
+
+.home-page .b2b-priority-section {
+    background: #f5f5f6;
+    padding: 72px 0 56px;
+}
+
+.home-page .b2b-priority-head {
+    gap: 0;
+    margin-bottom: 30px;
+}
+
+.home-page .b2b-priority-grid {
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.home-page .b2b-priority-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 256px;
+    background: linear-gradient(180deg, #fff6f8 0%, #ffeef3 100%);
+    border: 1px solid #eadde1;
+    border-radius: 16px;
+    padding: 26px;
+    box-shadow: 0 12px 28px rgba(94, 92, 98, 0.07);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.home-page .b2b-priority-card:hover {
+    transform: translateY(-4px);
+    border-color: #dcb2bb;
+    box-shadow: 0 18px 34px rgba(192, 130, 138, 0.15);
+}
+
+.home-page .b2b-priority-card h3 {
+    margin: 4px 0 6px;
+    color: var(--text-dark);
+    font-family: var(--font-sans);
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.home-page .b2b-priority-card ul {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--text-dark);
+}
+
+.home-page .b2b-priority-card li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.home-page .b2b-priority-card li::marker {
+    color: #d17284;
+}
+
+.home-page .b2b-priority-card li:last-child {
+    margin-bottom: 0;
+}
+
+.home-page .b2b-priority-muted {
+    color: var(--text-gray);
+    margin: 0 0 8px;
+}
+
+.home-page .b2b-geo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.home-page .b2b-geo-list span {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: #f7edf0;
+    color: #8f6b74;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.home-page .b2b-priority-card-contact p {
+    margin: 0 0 8px;
+    color: var(--text-dark);
+    line-height: 1.5;
+}
+
+.home-page .b2b-priority-card-contact .b2b-contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    width: 200px;
+    min-width: 200px;
+    height: 40px;
+    padding: 0 12px;
+    background-color: #d17284;
+    color: #fff;
+    border: 2px solid #d17284;
+    border-radius: 0;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.1;
+    white-space: nowrap;
+    text-align: center;
+    font-family: var(--font-sans);
+    transition: var(--transition);
+}
+
+.home-page .b2b-priority-card-contact .b2b-contact-btn:hover {
+    background-color: #c76578;
+    border-color: #c76578;
+}
+
+.home-page .b2b-form-section {
+    background: #fff;
+    padding: 56px 0 80px;
+}
+
+.home-page .b2b-form-panel {
+    background: #fff;
+    border: 1px solid #e6d9dd;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 16px 30px rgba(94, 92, 98, 0.08);
+}
+
+.home-page .b2b-quick-form {
+    margin-top: 18px;
+}
+
+.home-page .b2b-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.home-page .b2b-form-grid label {
+    display: grid;
+    gap: 7px;
+}
+
+.home-page .b2b-form-grid label span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8f6b74;
+}
+
+.home-page .b2b-form-grid input,
+.home-page .b2b-form-grid textarea {
+    width: 100%;
+    border: 1px solid #dfcfd4;
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 14px;
+    color: var(--text-dark);
+    font-family: var(--font-sans);
+}
+
+.home-page .b2b-form-grid input:focus,
+.home-page .b2b-form-grid textarea:focus {
+    outline: none;
+    border-color: #c0828a;
+    box-shadow: 0 0 0 3px rgba(192, 130, 138, 0.14);
+}
+
+.home-page .b2b-form-comment {
+    grid-column: 1 / -1;
+}
+
+.home-page .b2b-form-section .b2b-form-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    min-width: 260px;
+    height: 44px;
+    padding: 0 16px;
+    background-color: #d17284;
+    color: #fff;
+    border: 2px solid #d17284;
+    border-radius: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.1;
+    white-space: normal;
+    text-align: center;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.home-page .b2b-form-section .b2b-form-btn:hover {
+    background-color: #c76578;
+    border-color: #c76578;
+}
+
+/* ============================================
+   HOME PAGE - DOCS / TRUST / MARKETS / DUAL CTA
+   ============================================ */
+
+.home-page .docs-preview-section {
+    background: #f5f5f6;
+}
+
+.home-page .trust-manufacturer-section {
+    background: #fff;
+}
+
+.home-page .markets-section {
+    background: #f5f5f6;
+}
+
+.home-page .dual-catalog-cta-section {
+    background: #fff;
+}
+
+.home-page .docs-preview-head,
+.home-page .trust-manufacturer-head {
+    margin-bottom: 26px;
+}
+
+.home-page .docs-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.home-page .docs-card {
+    background: #fff;
+    border: 1px solid #e6d9dd;
+    border-left: 4px solid var(--primary);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 8px 20px rgba(94, 92, 98, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page .docs-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 100% 0%, rgba(187, 115, 130, 0.05), transparent);
+    pointer-events: none;
+}
+
+.home-page .docs-icon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, rgba(187, 115, 130, 0.12), rgba(192, 130, 138, 0.08));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+.home-page .docs-card:hover .docs-icon {
+    background: linear-gradient(135deg, rgba(187, 115, 130, 0.2), rgba(192, 130, 138, 0.15));
+    transform: scale(1.1);
+}
+
+.home-page .docs-card h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: var(--primary-dark);
+    font-family: var(--font-sans);
+    position: relative;
+    z-index: 1;
+}
+
+.home-page .docs-card p {
+    margin: 0 0 14px;
+    color: var(--text-gray);
+    line-height: 1.55;
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+}
+
+.home-page .docs-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(187, 115, 130, 0.08), rgba(192, 130, 138, 0.06));
+    border: 1px solid rgba(187, 115, 130, 0.2);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.home-page .docs-link {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    align-self: flex-start;
+}
+
+.home-page .docs-link::after {
+    content: '→';
+    margin-left: 6px;
+    transition: transform 0.3s ease;
+}
+
+.home-page .docs-link:hover {
+    color: var(--primary-dark);
+}
+
+.home-page .docs-link:hover::after {
+    transform: translateX(4px);
+}
+
+.home-page .docs-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 12px 32px rgba(187, 115, 130, 0.12);
+    transform: translateY(-4px);
+}
+
+.home-page .trust-manufacturer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.home-page .trust-manufacturer-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 239, 242, 0.6));
+    border: 1px solid rgba(230, 217, 221, 0.8);
+    border-radius: 14px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page .trust-manufacturer-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(187, 115, 130, 0.6), rgba(192, 130, 138, 0.3));
+}
+
+.home-page .trust-manufacturer-card::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    width: 32px;
+    height: 32px;
+    background: radial-gradient(circle at 30% 30%, rgba(187, 115, 130, 0.15), transparent);
+    border-radius: 8px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.home-page .trust-card--cert::before {
+    background: linear-gradient(90deg, #bb7382, #d19aaa);
+}
+
+.home-page .trust-card--warranty::before {
+    background: linear-gradient(90deg, #c99ba8, #e0b8c1);
+}
+
+.home-page .trust-card--quality::before {
+    background: linear-gradient(90deg, #b8808b, #d5a3ae);
+}
+
+.home-page .trust-card--engineering::before {
+    background: linear-gradient(90deg, #a88c94, #c9a9b5);
+}
+
+.home-page .trust-icon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, rgba(187, 115, 130, 0.15), rgba(192, 130, 138, 0.1));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+.home-page .trust-manufacturer-card:hover .trust-icon {
+    background: linear-gradient(135deg, rgba(187, 115, 130, 0.25), rgba(192, 130, 138, 0.2));
+    transform: scale(1.15) rotate(-5deg);
+}
+
+.home-page .trust-manufacturer-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(187, 115, 130, 0.18);
+    border-color: rgba(187, 115, 130, 0.3);
+    background: linear-gradient(135deg, #fff 0%, rgba(250, 247, 248, 0.8) 100%);
+}
+
+.home-page .trust-manufacturer-card:hover::after {
+    opacity: 1;
+    top: 8px;
+}
+
+.home-page .trust-manufacturer-card h3 {
+    margin: 0 0 12px;
+    font-size: 18px;
+    color: var(--primary-dark);
+    font-weight: 600;
+    font-family: var(--font-sans);
+}
+
+.home-page .trust-manufacturer-card p {
+    margin: 0 0 12px;
+    color: var(--text-gray);
+    line-height: 1.6;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.home-page .trust-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(187, 115, 130, 0.1), rgba(192, 130, 138, 0.08));
+    border: 1px solid rgba(187, 115, 130, 0.25);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--primary-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.home-page .markets-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+    gap: 32px;
+    align-items: center;
+}
+
+.home-page .markets-content {
+    padding: 0;
+}
+
+.home-page .markets-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.home-page .markets-list span {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(187, 115, 130, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(248, 239, 242, 0.4));
+    padding: 10px 16px;
+    font-size: 13px;
+    color: var(--primary-dark);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.home-page .markets-list span:hover {
+    border-color: var(--primary);
+    background: rgba(187, 115, 130, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(187, 115, 130, 0.12);
+}
+
+.home-page .markets-map-svg {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: block;
+    max-width: 100%;
+}
+
+.home-page .markets-map-box {
+    min-height: 400px;
+    border-radius: 18px;
+    border: 2px solid rgba(187, 115, 130, 0.15);
+    background: linear-gradient(135deg, 
+        rgba(192, 130, 138, 0.08) 0%, 
+        rgba(245, 237, 240, 0.6) 50%,
+        rgba(188, 165, 172, 0.08) 100%);
+    position: relative;
+    overflow: visible;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 20px;
+}
+
+.home-page .markets-map-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 30%, rgba(187, 115, 130, 0.06), transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(192, 130, 138, 0.06), transparent 50%);
+    pointer-events: none;
+}
+
+.home-page .map-regions {
+    opacity: 1;
+}
+
+.home-page .country-path {
+    fill: #ece4e6;
+    stroke: #c8adb3;
+    stroke-width: 0.5;
+    transition: fill 0.25s ease;
+}
+
+.home-page .country-path--active {
+    fill: rgba(187, 115, 130, 0.42);
+    stroke: rgba(160, 88, 102, 0.7);
+    stroke-width: 0.8;
+    transition: fill 0.25s ease;
+    cursor: pointer;
+}
+
+.home-page .country-path--active:hover {
+    fill: rgba(187, 115, 130, 0.62);
+}
+
+.home-page .country-path--available {
+    fill: rgba(192, 130, 138, 0.22);
+    stroke: rgba(160, 88, 102, 0.45);
+    stroke-width: 0.6;
+}
+
+/* Full Europe SVG map — base countries */
+.home-page .map-base path {
+    fill: #ece4e6;
+    stroke: #c8adb3;
+    stroke-width: 0.4;
+    transition: fill 0.25s ease;
+}
+
+/* Highlighted partner markets */
+.home-page .map-markets path {
+    fill: rgba(187, 115, 130, 0.42);
+    stroke: rgba(160, 88, 102, 0.6);
+    stroke-width: 0.5;
+    cursor: pointer;
+    transition: fill 0.25s ease;
+}
+
+.home-page .map-markets path:hover {
+    fill: rgba(187, 115, 130, 0.65);
+}
+
+/* Ukraine — main active market */
+.home-page .map-country-ua {
+    fill: rgba(187, 115, 130, 0.5);
+    stroke: rgba(140, 72, 86, 0.65);
+    stroke-width: 0.5;
+    cursor: pointer;
+    transition: fill 0.25s ease;
+}
+
+.home-page .map-country-ua:hover {
+    fill: rgba(187, 115, 130, 0.7);
+}
+
+/* Turkey — neutral/context country */
+.home-page .map-country-tr {
+    fill: #e8e2e4;
+    stroke: #c8adb3;
+    stroke-width: 0.4;
+}
+
+.home-page .map-points {
+    pointer-events: auto;
+}
+
+.home-page .market-point {
+    fill: none;
+    stroke: var(--primary);
+    stroke-width: 2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 2px 8px rgba(187, 115, 130, 0.15));
+}
+
+.home-page .market-point--active {
+    fill: var(--primary);
+    stroke: var(--primary);
+    stroke-width: 0.5;
+    opacity: 1;
+}
+
+.home-page .market-point--active:hover {
+    r: 13;
+    filter: drop-shadow(0 4px 16px rgba(187, 115, 130, 0.3));
+}
+
+.home-page .market-point--available {
+    fill: rgba(187, 115, 130, 0.4);
+    stroke: rgba(187, 115, 130, 0.6);
+    opacity: 0.7;
+}
+
+.home-page .market-point--growth {
+    fill: rgba(192, 130, 138, 0.3);
+    stroke: rgba(192, 130, 138, 0.5);
+    opacity: 0.6;
+}
+
+.home-page .market-point-pulse {
+    fill: none;
+    stroke: var(--primary);
+    stroke-width: 1;
+    opacity: 0.6;
+    animation: map-pulse 2s ease-in-out infinite;
+}
+
+@keyframes map-pulse {
+    0% {
+        r: 10;
+        opacity: 0.8;
+    }
+    50% {
+        r: 18;
+        opacity: 0.2;
+    }
+    100% {
+        r: 10;
+        opacity: 0.8;
+    }
+}
+
+.home-page .market-label {
+    fill: var(--primary-dark);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.home-page .market-label--secondary {
+    fill: var(--text-gray);
+    font-weight: 400;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.home-page .map-title {
+    fill: var(--primary-dark);
+    opacity: 0.6;
+    font-family: var(--font-sans);
+    letter-spacing: 0.1em;
+}
+
+.home-page .dual-catalog-cta-panel {
+    background: #fff;
+    border: 1px solid #e6d9dd;
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;
+}
+
+.home-page .dual-catalog-actions {
+    margin-top: 16px;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home-page .dual-catalog-actions .about-btn-outline {
+    border-color: #c0828a;
+    color: #9a5f6c;
+}
+
+.home-page .dual-catalog-actions .about-btn-outline:hover {
+    background: #f7edf0;
+}
+
+/* ============================================
+   HOME PAGE RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+    .home-page .about-wrapper,
+    .home-page .company-wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .home-page .about-image,
+    .home-page .company-image {
+        text-align: center;
+    }
+
+    .home-page .about-pagination {
+        right: 0;
+    }
+
+    .home-page .about-product-image {
+        max-width: 100%;
+    }
+
+    .home-page .trust-strip .trust-strip-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .home-page .trust-strip .trust-strip-item:first-child {
+        border-right: none;
+        border-bottom: 1px solid #efe8e8;
+    }
+
+    .home-page .trust-strip-cta {
+        width: calc(100% - 28px);
+        min-width: 0;
+    }
+
+    .home-page .products-preview-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0;
+    }
+
+    .home-page .products-preview .product-preview-card {
+        min-height: 156px;
+        padding: 0;
+    }
+
+    .home-page .construction-grid,
+    .home-page .service-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .home-page .b2b-priority-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-page .docs-preview-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-page .trust-manufacturer-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-page .markets-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .home-page .construction-detail-layout {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .home-page .construction-card,
+    .home-page .service-card {
+        min-height: 178px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .home-page .about-section,
+    .home-page .company-section {
+        padding: 60px 0;
+    }
+
+    .home-page .about-title,
+    .home-page .company-brand {
+        font-size: 36px;
+    }
+
+    .home-page .about-title {
+        line-height: 1.08;
+    }
+
+    .home-page .about-pagination {
+        right: 0;
+    }
+
+    .home-page .section-image,
+    .home-page .construction-image {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .home-page .company-points li {
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding-left: 24px;
+    }
+
+    .home-page .products-preview-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0;
+    }
+
+    .home-page .products-preview-head .section-accent {
+        font-size: 42px;
+    }
+
+    .home-page .products-preview .product-preview-card {
+        min-height: 148px;
+        padding: 0;
+    }
+
+    .home-page .products-preview .product-preview-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 14px;
+    }
+
+    .home-page .products-preview .product-preview-title {
+        font-size: 13px;
+    }
+
+    .home-page .construction-grid,
+    .home-page .service-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .home-page .b2b-form-panel {
+        padding: 22px;
+    }
+
+    .home-page .b2b-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-page .b2b-priority-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-page .docs-preview-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .home-page .trust-manufacturer-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .home-page .markets-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .home-page .markets-map-box {
+        min-height: 320px;
+    }
+
+    .home-page .markets-map-svg {
+        min-height: 300px;
+    }
+
+    .home-page .construction-card,
+    .home-page .service-card {
+        min-height: auto;
+        padding: 22px 18px;
+    }
+
+    .home-page .construction-detail-title {
+        font-size: 24px;
+    }
+
+    .home-page .construction-image .image-card-light {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-page .about-section,
+    .home-page .company-section {
+        padding: 50px 0;
+    }
+
+    .home-page .about-title,
+    .home-page .company-brand {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .home-page .about-title {
+        line-height: 1.1;
+    }
+
+    .home-page .about-pagination {
+        display: none;
+    }
+
+    .home-page .about-intro p,
+    .home-page .company-points li {
+        font-size: 13px;
+    }
+
+    .home-page .about-actions {
+        gap: 10px;
+    }
+
+    .home-page .about-btn {
+        min-width: 100%;
+        height: 52px;
+        padding: 0 16px;
+        font-size: 13px;
+    }
+
+    .home-page .company-link {
+        font-size: 14px;
+    }
+
+    .home-page .trust-strip .trust-strip-item {
+        padding: 10px 14px;
+    }
+
+    .home-page .trust-strip-cta {
+        height: 44px;
+        font-size: 11px;
+    }
+
+    .home-page .products-preview-grid {
+        gap: 0;
+    }
+
+    .home-page .products-preview-head .section-accent {
+        font-size: 34px;
+    }
+
+    .home-page .products-preview .product-preview-card {
+        min-height: 138px;
+        padding: 0;
+    }
+
+    .home-page .products-preview .product-preview-icon {
+        width: 54px;
+        height: 54px;
+        margin-bottom: 12px;
+    }
+
+    .home-page .products-preview .product-preview-icon svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .home-page .products-preview .product-preview-title {
+        font-size: 12px;
+    }
+
+    .home-page .docs-preview-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .home-page .docs-card {
+        padding: 18px 16px;
+    }
+
+    .home-page .docs-card h3 {
+        font-size: 18px;
+    }
+
+    .home-page .docs-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-page .docs-badge {
+        font-size: 11px;
+        padding: 3px 10px;
+    }
+
+    .home-page .trust-manufacturer-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .home-page .trust-manufacturer-card {
+        padding: 18px;
+    }
+
+    .home-page .trust-manufacturer-card h3 {
+        font-size: 16px;
+    }
+
+    .home-page .trust-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .home-page .trust-badge {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    .home-page .markets-map-box {
+        min-height: 280px;
+        border-radius: 14px;
+    }
+
+    .home-page .markets-map-svg {
+        min-height: 260px;
+    }
+
+    .home-page .markets-list span {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .home-page .market-label {
+        font-size: 10px;
+    }
+
+    .home-page .market-label--secondary {
+        font-size: 9px;
+    }
+}
+
+/* ============================================
+   DECORATIVE BACKGROUND CIRCLES
+   ============================================ */
+
+.value-card {
+    position: relative;
+}
+
+.value-bg-accent {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--accent-light) 0%, transparent 70%);
+    border-radius: 50%;
+    opacity: 0.12;
+    top: -40px;
+    right: -40px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.production-item {
+    position: relative;
+}
+
+.prod-bg-accent {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, var(--primary) 0%, transparent 65%);
+    border-radius: 50%;
+    opacity: 0.08;
+    top: -30px;
+    left: -30px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    }

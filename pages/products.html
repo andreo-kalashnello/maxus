@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог продукции MAXAS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css?v=20260327-3">
+</head>
+<body class="products-page">
+    <!-- ШАПКА САЙТА -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a class="logo" href="../index.html">
+                    <img src="../assets/images/logo.svg" alt="MAXAS" class="logo-img">
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-link">Главная</a></li>
+                        <li><a href="products.html" class="nav-link active">Продукция</a></li>
+                        <li><a href="solutions.html" class="nav-link">Решения и технологии</a></li>
+                        <li><a href="b2b.html" class="nav-link">B2B сотрудничество</a></li>
+                        <li><a href="instructions.html" class="nav-link">Инструкции</a></li>
+                        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="tel:+380990000000" class="header-phone-link" aria-label="Позвонить по номеру +38 (099) 000 00 00">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                            <path d="M4 6L6 4C6.5 3.5 7.5 3.5 8 4L10 6C10.5 6.5 10.5 7.5 10 8L9 9C9.5 10 10.5 11 11.5 11.5L12.5 10.5C13 10 14 10 14.5 10.5L16.5 12.5C17 13 17 14 16.5 14.5L14.5 16.5C14 17 13 17 12 16.5C8 15 5 12 4 8C3.5 7 3.5 6 4 6Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                        <span>+38 (099) 000 00 00</span>
+                    </a>
+                    <button class="menu-toggle" id="menuToggle" aria-label="Меню">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ КАТАЛОГА -->
+    <main>
+        <!-- Верхний блок каталога с описанием -->
+        <section class="container">
+            <div class="catalog-top">
+                <h1 class="page-title">Профессиональное оборудование MAXAS</h1>
+                <p class="page-lead">
+                    Пылеуловители MAXAS разработаны для профессионального использования и подбираются в зависимости от формата рабочего места и интенсивности нагрузки.
+                    Оборудование ориентировано на стабильную работу, комфорт и безопасность в реальных условиях салонов и учебных центров.
+                </p>
+
+                <div class="category-chips">
+                    <span class="category-chip">Встраиваемые пылеуловители</span>
+                    <span class="category-chip">Настольные пылеуловители</span>
+                    <span class="category-chip">Подставки для маникюра</span>
+                    <span class="category-chip">Расходные материалы</span>
+                    <span class="category-chip">Мобильные / компактные решения</span>
+                    <span class="category-chip">Комплексные рабочие места MAXAS</span>
+                </div>
+            </div>
+
+            <div class="desktop-intro">
+                <div class="desktop-intro-layout">
+                    <div class="desktop-intro-text">
+                        <h2>Настольные пылеуловители MAXAS</h2>
+                        <p>Настольные пылеуловители MAXAS — универсальное решение для профессиональных рабочих мест. Они не требуют встраивания, легко размещаются на столе и обеспечивают эффективное улавливание пыли при сохранении мобильности рабочего пространства.</p>
+                        <p>В отличие от встроенных решений, настольный формат не требует доработки столешницы и специальных навыков монтажа, а также сохраняет возможность гибко менять конфигурацию рабочего места. Это позволяет избежать ограничений, связанных с установкой конкретной модели в стол, и упрощает адаптацию оборудования под текущие задачи.</p>
+                        <p>Ключевым остаётся выбор качественного профессионального оборудования, которое обеспечивает стабильную работу, комфорт и безопасность при ежедневной нагрузке.</p>
+                    </div>
+                    <div class="desktop-intro-media">
+                        <img src="../assets/images/dust-catcher.png" alt="Настольный пылеуловитель MAXAS" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Преимущества продукции бренда -->
+            <section class="product-benefits">
+                <h2>Почему выбирают MAXAS</h2>
+                <div class="benefits-grid">
+                    <article class="benefit-card">
+                        <h3>Стабильная мощность</h3>
+                        <p>Равномерная работа вентиляционного узла без просадок по эффективности при длительной нагрузке.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>Надёжная фильтрация</h3>
+                        <p>Многоуровневое улавливание пыли для снижения её концентрации в рабочей зоне мастера и клиента.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>Комфорт акустики</h3>
+                        <p>Снижение шумовой нагрузки помогает сохранять продуктивность команды и уровень сервиса.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>Удобное обслуживание</h3>
+                        <p>Быстрый доступ к расходникам и понятный сервисный цикл для ежедневной практики.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>Продуманная эргономика</h3>
+                        <p>Конструкция снижает нагрузку на мастера и помогает сохранять комфорт при длительной работе.</p>
+                    </article>
+                    <article class="benefit-card">
+                        <h3>B2B-готовность</h3>
+                        <p>Партнерские поставки, сервисная поддержка и стабильные комплектации для локальных рынков.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Блок с обзором линейки и карточками -->
+            <section class="collection-block">
+                <h2>Категории продукции MAXAS</h2>
+                <p class="page-subtle">Светло-розовые карточки ниже показывают ключевые направления ассортимента и ведут в соответствующие разделы каталога.</p>
+                <div class="catalog-cta-row">
+                    <a class="btn-secondary" href="catalog/model-desk.html">Выбрать модель</a>
+                </div>
+            </section>
+
+            <!-- Сводка по категориям каталога -->
+            <section class="catalog-brief-card" aria-label="Гид по категориям">
+                <h3>Быстрый ориентир по категориям</h3>
+                <p>Чтобы быстрее перейти к нужной позиции, используйте карточки ниже по логике сценария: установка оборудования, расходники, документы и B2B-комплектации.</p>
+                <div class="catalog-brief-grid">
+                    <p><strong>Рабочее место:</strong> настольные, встраиваемые модели и подставки для мастера.</p>
+                    <p><strong>Поддержание результата:</strong> HEPA-фильтры и одноразовые салфетки для стабильной гигиены.</p>
+                    <p><strong>Масштабирование:</strong> цветовые исполнения, B2B-пакеты и инструкции для запуска.</p>
+                </div>
+            </section>
+
+            <div class="catalog-grid">
+                <a class="catalog-card catalog-card-soft" href="catalog/model-desk-item.html">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">Настольные пылеуловители</h3>
+                        <p class="catalog-card-desc">Универсальные решения для ежедневной работы мастера, студии и учебного класса.</p>
+                    </div>
+                </a>
+
+                <a class="catalog-card catalog-card-soft" href="catalog/model-desk-item.html">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">Встраиваемые пылеуловители</h3>
+                        <p class="catalog-card-desc">Формат для интеграции в столешницу, когда важны свободная рабочая поверхность и порядок.</p>
+                    </div>
+                </a>
+
+                <a class="catalog-card catalog-card-soft" href="catalog/model-desk-item.html">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">Подставки для маникюра</h3>
+                        <p class="catalog-card-desc">Эргономичные подставки для стабильного положения руки клиента и комфорта мастера.</p>
+                    </div>
+                </a>
+
+                <a class="catalog-card catalog-card-soft" href="products.html#consumables">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">HEPA-фильтры</h3>
+                        <p class="catalog-card-desc">Оригинальные фильтры для стабильного улавливания мелкодисперсной пыли и ресурса техники.</p>
+                    </div>
+                </a>
+
+                <a class="catalog-card catalog-card-soft" href="products.html#consumables">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">Одноразовые салфетки</h3>
+                        <p class="catalog-card-desc">Предфильтры для чистой рабочей зоны, аккуратного сервиса и продления ресурса HEPA.</p>
+                    </div>
+                </a>
+
+                <a class="catalog-card catalog-card-soft" href="catalog/model-desk-item.html">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">Цветовые исполнения</h3>
+                        <p class="catalog-card-desc">Варианты White, Silver и Black для согласования оборудования с интерьером студии.</p>
+                    </div>
+                </a>
+
+                <a class="catalog-card catalog-card-soft" href="b2b.html">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">B2B-комплектации</h3>
+                        <p class="catalog-card-desc">Пакеты поставки для дистрибьюторов, салонных сетей и учебных центров под формат рынка.</p>
+                    </div>
+                </a>
+
+                <a class="catalog-card catalog-card-soft" href="instructions.html">
+                    <div class="catalog-card-body">
+                        <h3 class="catalog-card-title">Документы и инструкции</h3>
+                        <p class="catalog-card-desc">Руководства, паспорта и сертификаты для эксплуатации, сервиса и партнерских продаж.</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Сетка карточек моделей -->
+            <section class="model-catalog-block" aria-label="Каталог карточек продукции">
+                <h2>Каталог карточек продукции</h2>
+                <p class="page-subtle">Выберите модель для просмотра характеристик, варианта цвета и условий поставки.</p>
+
+                <div class="catalog-grid model-catalog-grid">
+                    <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/maxus-desc-pro.webp" alt="Модель настольного пылеуловителя MAXAS">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Desk Pro</h3>
+                            <p class="catalog-card-note">Настольный пылеуловитель для интенсивной ежедневной нагрузки.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€448.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+
+                    <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/dust-catcher.png" alt="Встраиваемая модель MAXAS">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Built-in Core</h3>
+                            <p class="catalog-card-note">Встраиваемое решение для аккуратной и свободной рабочей поверхности.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€448.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+
+                    <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/product-3.png" alt="MAXAS модель в белом цвете">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Desk White</h3>
+                            <p class="catalog-card-note">Исполнение White для светлых интерьеров и учебных пространств.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€448.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+
+                    <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/product-4.jpg" alt="MAXAS модель в сером цвете">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Desk Silver</h3>
+                            <p class="catalog-card-note">Исполнение Silver с нейтральной эстетикой для салонов и студий.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€448.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+
+                    <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/product-5.jpg" alt="MAXAS модель в черном цвете">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Desk Black</h3>
+                            <p class="catalog-card-note">Исполнение Black для контрастного профессионального рабочего места.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€697.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+
+                    <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/product-6.png" alt="Карточка модели MAXAS с техническими данными">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Product Card</h3>
+                            <p class="catalog-card-note">Подробная карточка: описание, параметры, артикул и сервисная информация.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€2745.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+                     <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/product-3.png" alt="MAXAS модель в белом цвете">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Desk White</h3>
+                            <p class="catalog-card-note">Исполнение White для светлых интерьеров и учебных пространств.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€448.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+
+                    <a class="model-catalog-card" href="catalog/model-desk-item.html">
+                        <img src="../assets/images/product-4.jpg" alt="MAXAS модель в сером цвете">
+                        <div class="catalog-card-body">
+                            <h3 class="catalog-card-title">MAXAS Desk Silver</h3>
+                            <p class="catalog-card-note">Исполнение Silver с нейтральной эстетикой для салонов и студий.</p>
+                            <p class="model-card-price"><span class="model-card-price-value">€448.00</span> <span class="model-card-price-tax">з ПДВ</span></p>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- Блок про расходные материалы -->
+            <section class="product-info-visual" id="consumables">
+                <div class="product-info-visual-content">
+                    <h2>Расходные материалы как часть стабильной системы</h2>
+                    <p>Оригинальные HEPA-фильтры и одноразовые салфетки MAXAS поддерживают предсказуемую эффективность фильтрации и визуальную чистоту рабочего места в течение всего дня.</p>
+                    <p>Для B2B-партнеров это упрощает планирование сервисных циклов, регулярных закупок и стандартизацию качества на всех рабочих точках.</p>
+                    <a class="btn-secondary" href="b2b.html">Запросить оптовые условия</a>
+                </div>
+                <div class="product-info-visual-media">
+                    <img src="../assets/images/home-efficiency-flow-01.webp" alt="HEPA-фильтрация и расходные материалы MAXAS" loading="lazy" decoding="async">
+                </div>
+            </section>
+
+            <!-- Дополнительные панели с информацией -->
+            <section class="catalog-info-panels">
+                <article class="info-panel">
+                    <h3>Подбор под формат рабочего места</h3>
+                    <p>MAXAS закрывает задачи индивидуального кабинета, салона с несколькими мастерами и учебного центра с постоянным потоком практики.</p>
+                </article>
+                <article class="info-panel">
+                    <h3>Сервис после покупки</h3>
+                    <p>Поставка фильтров, документация, консультация по настройке и сопровождение по регламенту обслуживания.</p>
+                </article>
+                <article class="info-panel">
+                    <h3>B2B-подход</h3>
+                    <p>Для партнёров доступны отдельные условия по комплектации, регулярным закупкам и сопровождению запуска рабочих мест.</p>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <!-- ПОДВАЛ САЙТА -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>О компании</h3>
+                    <p>MAXAS — разработчик и производитель профессионального оборудования для салонов красоты и маникюра.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Каталог</h3>
+                    <ul>
+                        <li><a href="/pages/products.html" class="footer-link">Все для маникюра</a></li>
+                        <li><a href="/pages/products.html" class="footer-link">Все для педикюра</a></li>
+                        <li><a href="/pages/products.html" class="footer-link">Инструменты</a></li>
+                        <li><a href="/pages/products.html" class="footer-link">Для депиляции</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p>+38 (099) 000 00 00</p>
+                    <p>+38 (099) 000 00 00</p>
+                    <p>Пн-Вс: 9:00 - 18:00</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="https://facebook.com" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V5h-2c-2.8 0-5 2.2-5 5v2H7v3h2v4h3v-4h3l1-3h-4v-2c0-1.1.9-2 2-2z"/></svg></a>
+                        <a href="https://instagram.com" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 2.2a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM17.5 6.8a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg></a>
+                        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zM5 10h3v9H5v-9zm5 0h2.9v1.3h.1c.4-.8 1.5-1.6 3.1-1.6 3.3 0 3.9 2.2 3.9 5V19h-3v-3.8c0-.9 0-2.1-1.3-2.1s-1.5 1-1.5 2V19h-3v-9z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 MAXAS. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js?v=20260326-1"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* ============================================
+   GLOBAL STYLES & VARIABLES
+   ============================================ */
+
+:root {
+    --primary: #C0828A;           /* Main Rose */
+    --primary-dark: #A7626C;      /* Darker Rose */
+    --primary-light: #E2BECA;     /* Light Rose */
+    --accent: #D8ADB3;            /* Accent Rose */
+    --accent-light: #F5E8E8;      /* Very light */
+    --text-gray: #7C787E;         /* Gray */
+    --text-dark: #2D2D2D;         /* Dark gray */
+    --text-light: #FFFFFF;        /* White */
+    --border: #E8D8D8;            /* Light border */
+    --shadow: rgba(0, 0, 0, 0.12);
+    
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Inter', sans-serif;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--text-dark);
+    background-color: var(--text-light);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* ============================================
+   CONTAINER & LAYOUT
+   ============================================ */
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.text-center {
+    text-align: center;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.opacity-80 {
+    opacity: 0.8;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-wrapper {
+    animation: fadeInUp 0.8s ease backwards;
+}
