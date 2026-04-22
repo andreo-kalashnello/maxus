@@ -1,208 +1,291 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Решения и технологии MAXAS | Профессиональное оборудование</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/styles.css?v=20260326-1">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css?v=20260326-1" />
+  </head>
+  <body>
     <!-- ШАПКА САЙТА -->
     <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="../assets/images/logo.svg" alt="MAXAS" class="logo-img">
-                </div>
-                
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="../index.html" class="nav-link">Главная</a></li>
-                        <li><a href="products.html" class="nav-link">Продукция</a></li>
-                        <li><a href="solutions.html" class="nav-link active">Решения и технологии</a></li>
-                        <li><a href="b2b.html" class="nav-link">B2B сотрудничество</a></li>
-                        <li><a href="instructions.html" class="nav-link">Инструкции</a></li>
-                        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
-                    </ul>
-                </nav>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img src="../assets/images/logo.svg" alt="MAXAS" class="logo-img" />
+          </div>
 
-                <div class="header-actions">
-                    <a href="tel:+380990000000" class="header-phone-link" aria-label="Позвонить по номеру +38 (099) 000 00 00">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                            <path d="M4 6L6 4C6.5 3.5 7.5 3.5 8 4L10 6C10.5 6.5 10.5 7.5 10 8L9 9C9.5 10 10.5 11 11.5 11.5L12.5 10.5C13 10 14 10 14.5 10.5L16.5 12.5C17 13 17 14 16.5 14.5L14.5 16.5C14 17 13 17 12 16.5C8 15 5 12 4 8C3.5 7 3.5 6 4 6Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                        </svg>
-                        <span>+38 (099) 000 00 00</span>
-                    </a>
-                    <button class="menu-toggle" id="menuToggle" aria-label="Меню">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-            </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li><a href="../index.html" class="nav-link">О бренде</a></li>
+              <li><a href="products.html" class="nav-link">Продукция</a></li>
+              <li>
+                <a href="solutions.html" class="nav-link active"
+                  >Технологии</a
+                >
+              </li>
+              <li>
+                <a href="b2b.html" class="nav-link">B&amp;B партнерам</a>
+              </li>
+              <li>
+                <a href="instructions.html" class="nav-link">Инструкции</a>
+              </li>
+              <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-actions">
+            <a
+              href="tel:+380990000000"
+              class="header-phone-link"
+              aria-label="Позвонить по номеру +38 (099) 000 00 00"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4 6L6 4C6.5 3.5 7.5 3.5 8 4L10 6C10.5 6.5 10.5 7.5 10 8L9 9C9.5 10 10.5 11 11.5 11.5L12.5 10.5C13 10 14 10 14.5 10.5L16.5 12.5C17 13 17 14 16.5 14.5L14.5 16.5C14 17 13 17 12 16.5C8 15 5 12 4 8C3.5 7 3.5 6 4 6Z"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                />
+              </svg>
+              <span>+38 (099) 000 00 00</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Меню">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
         </div>
+      </div>
     </header>
 
     <main>
-    <!-- ГЛАВНЫЙ ЭКРАН СТРАНИЦЫ -->
-    <section class="solutions-hero">
+      <!-- ГЛАВНЫЙ ЭКРАН СТРАНИЦЫ -->
+      <section class="solutions-hero">
         <div class="container">
-            <div class="solutions-hero-content">
-                <h1>Почему оборудование MAXAS удобно, эффективно и оправдано</h1>
-                <p class="solutions-hero-subtitle">Решения MAXAS разрабатываются для реальной ежедневной работы в профессиональной среде</p>
-                <p class="solutions-hero-description">Мы фокусируемся на технологиях и конструктивных решениях, которые обеспечивают стабильный результат, комфорт и безопасность при длительной эксплуатации</p>
-            </div>
+          <div class="solutions-hero-content">
+            <h1>
+              <span class="solutions-brand-inline"
+                ><svg
+                  class="solutions-brand-wordmark"
+                  width="570"
+                  height="63"
+                  viewBox="0 0 570 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="MAXAS"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M412 1.083C412 1.679 402.568 15.629 391.041 32.083C372.731 58.219 370.379 62 372.434 62C373.728 62 375.007 61.425 375.276 60.722C375.926 59.029 410.835 8.987 412.896 6.794C414.387 5.208 415.498 6.513 428.647 25.294C436.427 36.407 442.705 45.597 442.598 45.715C442.491 45.833 439.526 44.768 436.009 43.348C432.492 41.927 425.539 39.919 420.558 38.886L411.5 37.006L409.255 39.753C408.02 41.264 407.008 42.725 407.006 43C407.004 43.275 410.686 43.586 415.188 43.691C432.219 44.089 445 48.996 451.089 57.474L454.339 62H461.792C467.607 62 469.031 61.725 468.271 60.75C463.385 54.477 427 1.838 427 1.041C427 0.412 424.032 0 419.5 0C414.783 0 412 0.402 412 1.083ZM508.5 0.715C497.577 2.225 486.131 7.018 484.018 10.966C483.458 12.012 483 14.532 483 16.566C483 24.682 492.798 29.391 522.424 35.514C541.976 39.556 549.592 42.527 550.59 46.501C552.742 55.076 541.459 60 519.661 60C507.771 60 499.88 58.51 492.892 54.945L488.845 52.88L489.173 55.19C489.856 60.012 507.758 63.561 527 62.69C554.074 61.464 569.455 55.069 569.455 45.038C569.455 36.193 562.178 32.724 529.5 25.989C506.544 21.257 499.245 17.106 501.482 10.055C504.22 1.43 535.881 -0.541001 550.324 7.015C556.098 10.036 556.144 10.043 555.824 7.79C555.128 2.909 543.203 -0.0510004 525.04 0.15C517.593 0.232 510.15 0.486 508.5 0.715ZM0 31.5C0 61.254 0.0490012 62 1.984 62C3.91 62 3.977 61.17 4.234 33.82L4.5 5.64L28 33.773L51.5 61.906L59 61.908L66.5 61.91L89.5 33.849L112.5 5.788L112.766 33.894L113.031 62H120.516H128V31.5V1H119.544H111.088L87.884 28.75C75.122 44.013 64.365 56.864 63.981 57.309C63.596 57.754 52.531 45.282 39.391 29.592L15.5 1.066L7.75 1.033L0 1V31.5ZM167.328 24.282C158.433 37.052 148.859 50.763 146.052 54.75C141.787 60.808 141.265 62 142.874 62C144.266 62 150.31 54.103 164.651 33.549C175.568 17.901 184.725 5.093 185 5.086C185.534 5.072 213.861 45.352 213.573 45.715C213.48 45.833 210.526 44.768 207.009 43.348C203.492 41.927 196.539 39.918 191.558 38.883L182.5 37L180.25 39.556C177.289 42.919 177.37 44.375 180.475 43.596C183.852 42.748 199.904 44.659 205.741 46.603C212.724 48.93 219.417 53.521 222.403 58.033L225.028 62H232.466H239.903L218.701 31.55L197.5 1.101L190.5 1.082L183.5 1.063L167.328 24.282ZM252.115 2.818C253.427 3.818 262.695 10.358 272.712 17.352C282.728 24.345 291.154 30.44 291.436 30.896C291.717 31.351 282.397 38.424 270.725 46.612C252.449 59.432 249.883 61.544 252.245 61.816C254.416 62.066 259.196 59.182 275.127 48.01C286.203 40.243 295.783 34.086 296.416 34.33C297.05 34.573 306.305 40.898 316.984 48.386L336.4 62H345.4C350.527 62 353.991 61.628 353.45 61.135C352.928 60.66 343.275 53.842 332 45.986C320.725 38.129 311.381 31.612 311.235 31.502C311.089 31.393 320.723 24.485 332.644 16.152C351.683 2.842 353.923 1 351.071 1C348.512 1 343.58 3.976 327.829 15.022L307.834 29.043L287.749 15.022L267.664 1H258.697C249.822 1 249.755 1.019 252.115 2.818Z"
+                    fill="currentColor"
+                  /></svg
+              ></span>
+              <span class="solutions-hero-heading-text"
+                >Оборудование, разработанное для удобной, эффективной и
+                стабильной работы в профессиональной среде</span
+              >
+            </h1>
+            <p class="solutions-hero-subtitle">
+              В основе — продуманные инженерные решения, направленные на
+              повышение комфорта мастера и качества рабочего процесса.
+            </p>
+            <p class="solutions-hero-description">
+              Мы фокусируемся на технологиях и конструктивных решениях, которые
+              обеспечивают стабильный результат, комфорт и безопасность при
+              длительной эксплуатации
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- БЛОК 1: ПРОФЕССИОНАЛЬНЫЙ УРОВЕНЬ -->
-    <section class="solutions-block solutions-block-1">
+      <!-- БЛОК 1: ПРОФЕССИОНАЛЬНЫЙ УРОВЕНЬ -->
+      <section class="solutions-block solutions-block-1">
         <div class="container">
-            <div class="solutions-content solutions-content-alt">
-                <div class="solutions-highlight">
-                    <div class="highlight-card highlight-card-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">95%</div>
-                            <div class="stat-label">Мастеров выбирают MAXAS</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">10+</div>
-                            <div class="stat-label">Лет надежной работы</div>
-                        </div>
-                    </div>
+          <div class="solutions-content solutions-content-alt">
+            <div class="solutions-text">
+              <h2>Профессиональный уровень как стандарт</h2>
+              <p>
+                Оборудование MAXAS ориентировано на профессиональную
+                эксплуатацию. Его выбирают мастера, салоны и учебные центры, для
+                которых рабочее место — это инструмент с прогнозируемым
+                результатом, а не компромисс между ценой и качеством.
+              </p>
+              <div class="benefits-list">
+                <div class="benefit-item">
+                  ✓ Стабильная работа при длительных нагрузках
                 </div>
-                <div class="solutions-text">
-                    <h2>Профессиональный уровень как стандарт</h2>
-                    <p>Оборудование MAXAS ориентировано на профессиональный уровень работы. Его выбирают мастера, салоны, студии и школы маникюра, которые рассматривают рабочее место как инвестицию в качество, безопасность и долговечность оборудования.</p>
-                    <div class="benefits-list">
-                        <div class="benefit-item">✓ Надежная работа при высоких нагрузках</div>
-                        <div class="benefit-item">✓ Долгий срок эксплуатации</div>
-                        <div class="benefit-item">✓ Стабильные характеристики</div>
-                    </div>
-                    <p>В учебных центрах и школах маникюра такой подход формирует правильные профессиональные стандарты с самого начала обучения будущих мастеров</p>
+                <div class="benefit-item">
+                  ✓ Конструкция, рассчитанная на ежедневную эксплуатацию
                 </div>
+                <div class="benefit-item">
+                  ✓ Предсказуемые характеристики без просадок производительности
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- БЛОК 2: ФИЛЬТРАЦИЯ -->
-    <section class="solutions-block solutions-block-2">
+      <!-- БЛОК 2: ФИЛЬТРАЦИЯ -->
+      <section class="solutions-block solutions-block-2">
         <div class="container">
-            <div class="solutions-content">
-                <div class="solutions-text">
-                    <h2>Современная система фильтрации</h2>
-                    <p>В оборудовании MAXAS используется современная система фильтрации на основе HEPA-фильтров — технологии, применяемой в инновационных профессиональных решениях.</p>
-                    <div class="tech-features">
-                        <div class="feature-row">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 40 40" fill="none">
-                                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
-                                    <path d="M20 12L24 16H16L20 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M20 28L24 24H16L20 28Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <circle cx="20" cy="20" r="4" fill="currentColor"/>
-                                </svg>
-                            </div>
-                            <div class="feature-text">
-                                <strong>Улавливание 99.97%</strong>
-                                <p>мелкодисперсной пыли размером 0.3 микрона</p>
-                            </div>
-                        </div>
-                        <div class="feature-row">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 40 40" fill="none">
-                                    <path d="M20 8L28 12V24C28 32 20 36 20 36C20 36 12 32 12 24V12L20 8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                                    <path d="M16 20L19 23L24 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="feature-text">
-                                <strong>Защита дыхательных путей</strong>
-                                <p>мастера и клиента на 100%</p>
-                            </div>
-                        </div>
-                        <div class="feature-row">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 40 40" fill="none">
-                                    <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2"/>
-                                    <path d="M20 10V15M20 25V30M10 20H15M25 20H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                    <path d="M14 14L17 17M23 23L26 26M26 14L23 17M17 23L14 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                </svg>
-                            </div>
-                            <div class="feature-text">
-                                <strong>Стабильная фильтрация</strong>
-                                <p>даже при интенсивной ежедневной работе</p>
-                            </div>
-                        </div>
+          <h2 class="solutions-block-title">Современная система фильтрации</h2>
+          <div class="solutions-content">
+            <div class="solutions-text">
+              <p>
+                В оборудовании MAXAS используется современная система фильтрации
+                на основе HEPA-фильтров — технологии, применяемой в
+                инновационных профессиональных решениях.
+              </p>
+              <div class="materials-showcase">
+                <div class="material-item">
+                  <div class="material-icon">
+                    <svg viewBox="0 0 40 40" fill="none">
+                      <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                      <path d="M20 12L24 16H16L20 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M20 28L24 24H16L20 28Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <circle cx="20" cy="20" r="4" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <div class="material-content">
+                    <div class="material-name">Эффективное улавливание пыли</div>
+                    <div class="material-detail">
+                      Снижает попадание мелкодисперсной пыли в воздух рабочей
+                      зоны
                     </div>
+                  </div>
                 </div>
-                <div class="solutions-accent">
-                    <div class="accent-box accent-box-large">
-                        <div class="accent-icon">
-                            <svg viewBox="0 0 80 80" fill="none">
-                                <rect x="15" y="20" width="50" height="50" rx="4" stroke="currentColor" stroke-width="2"/>
-                                <path d="M25 35H55M25 45H55M25 55H55" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                <path d="M35 65V70M45 65V70" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <p>Профессиональная HEPA-фильтрация</p>
-                        <div class="accent-sub">Европейский стандарт качества</div>
-                    </div>
+                <div class="material-item">
+                  <div class="material-icon">
+                    <svg viewBox="0 0 40 40" fill="none">
+                      <path d="M20 8L28 12V24C28 32 20 36 20 36C20 36 12 32 12 24V12L20 8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                      <path d="M16 20L19 23L24 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="material-content">
+                    <div class="material-name">Защита дыхательных путей</div>
+                    <div class="material-detail">мастера и клиента на 100%</div>
+                  </div>
                 </div>
+                <div class="material-item">
+                  <div class="material-icon">
+                    <svg viewBox="0 0 40 40" fill="none">
+                      <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2"/>
+                      <path d="M20 10V15M20 25V30M10 20H15M25 20H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M14 14L17 17M23 23L26 26M26 14L23 17M17 23L14 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                  <div class="material-content">
+                    <div class="material-name">Стабильная фильтрация</div>
+                    <div class="material-detail">даже при интенсивной ежедневной работе</div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </section>
-
-    <!-- БЛОК 3: АЭРОДИНАМИКА -->
-    <section class="solutions-block solutions-block-3">
-        <div class="container">
-            <div class="solutions-content solutions-content-alt">
-                <div class="solutions-accent">
-                    <div class="accent-box accent-box-large">
-                        <div class="accent-icon">
-                            <svg viewBox="0 0 80 80" fill="none">
-                                <circle cx="40" cy="40" r="30" stroke="currentColor" stroke-width="2"/>
-                                <path d="M40 15V65M15 40H65M25 25L55 55M55 25L25 55" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
-                                <circle cx="40" cy="40" r="8" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <p>Продуманная аэродинамика</p>
-                        <div class="accent-sub">Равномерное всасывание по всей поверхности</div>
-                    </div>
+            <div class="solutions-accent">
+              <div class="accent-box accent-box-large">
+                <div class="accent-icon">
+                  <img
+                    src="../assets/images/filter.svg"
+                    alt="Иконка фильтрации"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
-                <div class="solutions-text">
-                    <h2>Реальная эффективность, а не цифры</h2>
-                    <p>В профессиональном оборудовании мощность — это не показатель в виде цифры, а эффективность реальной работы.</p>
-                    <p>Продуманная аэродинамика пылеуловителей MAXAS обеспечивает равномерное всасывание пыли по всей рабочей поверхности, сохраняя стабильную защиту даже при интенсивной нагрузке.</p>
-                    <div class="info-cards-row">
-                        <div class="info-card-small">
-                            <div class="card-label">Эффективность</div>
-                            <div class="card-value">99.9%</div>
-                        </div>
-                        <div class="info-card-small">
-                            <div class="card-label">Покрытие</div>
-                            <div class="card-value">Полное</div>
-                        </div>
-                        <div class="info-card-small">
-                            <div class="card-label">Стабильность</div>
-                            <div class="card-value">24/7</div>
-                        </div>
-                    </div>
-                </div>
+                <p>Профессиональная HEPA-фильтрация</p>
+                <div class="accent-sub">Европейский стандарт качества</div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- БЛОК 4: ШУМ И КОМФОРТ -->
-    <section class="solutions-block solutions-block-4">
+      <!-- БЛОК 3: АЭРОДИНАМИКА -->
+      <section class="solutions-block solutions-block-3">
         <div class="container">
-            <div class="solutions-content">
-                <div class="solutions-text">
-                    <h2>Комфорт рабочей среды</h2>
-                    <p>Комфорт рабочей среды напрямую влияет на качество, продолжительность и удовольствие от работы.</p>
-                    <p>Оборудование MAXAS спроектировано с учётом сниженного уровня шума, что позволяет мастеру работать в спокойной атмосфере, легко общаться с клиентом и слышать его пожелания.</p>
-                    <div class="comparison-row">
+          <h2 class="solutions-block-title">Реальная эффективность</h2>
+          <div class="solutions-content solutions-content-alt">
+            <div class="solutions-accent">
+              <div class="accent-box accent-box-large">
+                <div class="accent-icon">
+                  <img
+                    src="../assets/images/effective.svg"
+                    alt="Иконка эффективности"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <p>Продуманная аэродинамика</p>
+                <div class="accent-sub">
+                  Равномерное всасывание по всей поверхности
+                </div>
+              </div>
+            </div>
+            <div class="solutions-text">
+              <p>
+                В профессиональном оборудовании мощность — это не показатель в
+                виде цифры, а эффективность реальной работы.
+              </p>
+              <p>
+                Продуманная аэродинамика пылеуловителей MAXAS обеспечивает
+                равномерное всасывание пыли по всей рабочей поверхности,
+                сохраняя стабильную защиту даже при интенсивной нагрузке.
+              </p>
+              <div class="info-cards-row">
+                <div class="info-card-small">
+                  <div class="card-value card-value-compact">Эффективность</div>
+                </div>
+                <div class="info-card-small">
+                  <div class="card-value card-value-compact">
+                    Полное покрытие рабочей зоны
+                  </div>
+                </div>
+                <div class="info-card-small">
+                  <div class="card-value card-value-compact">
+                    Управляемый поток
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- БЛОК 4: ШУМ И КОМФОРТ -->
+      <section class="solutions-block solutions-block-4">
+        <div class="container">
+          <h2 class="solutions-block-title">Комфорт рабочей среды</h2>
+          <div class="solutions-content">
+            <div class="solutions-text">
+              <p>
+                Уровень шума напрямую влияет на концентрацию мастера, качество
+                работы и комфорт клиента.Комфорт рабочей среды напрямую влияет
+                на качество, продолжительность и удовольствие от работы.
+              </p>
+              <p>
+                Оборудование MAXAS спроектировано с учётом сниженного уровня
+                шума, что позволяет мастеру работать в спокойной атмосфере,
+                легко общаться с клиентом и слышать его пожелания.
+              </p>
+              <!-- <div class="comparison-row">
                         <div class="comparison-item">
                             <div class="comp-icon">✓</div>
                             <div class="comp-text">
@@ -217,205 +300,224 @@
                                 <p>Высокий уровень шума 70+ дБ</p>
                             </div>
                         </div>
-                    </div>
-                    <p>Низкий уровень шума особенно важен при полной рабочей загрузке в течение дня и в салонах, где одновременно работают несколько специалистов.</p>
-                </div>
-                <div class="solutions-accent">
-                    <div class="accent-box accent-box-large">
-                        <div class="accent-icon">
-                            <svg viewBox="0 0 80 80" fill="none">
-                                <path d="M40 15C28 15 18 25 18 37C18 49 28 59 40 59C52 59 62 49 62 37" stroke="currentColor" stroke-width="2"/>
-                                <path d="M35 25L35 50M40 20L40 50M45 30L45 50" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <p>Сниженный уровень шума</p>
-                        <div class="accent-sub">Комфортная рабочая среда</div>
-                    </div>
-                </div>
+                    </div> -->
+              <!-- пока убрали, если проект апрувнут то можно комент убирать -->
+              <p>
+                Низкий уровень шума особенно важен при полной рабочей загрузке в
+                течение дня и в салонах, где одновременно работают несколько
+                специалистов.
+              </p>
             </div>
+            <div class="solutions-accent">
+              <div class="accent-box accent-box-large">
+                <div class="accent-icon">
+                  <img
+                    src="../assets/images/noise.svg"
+                    alt="Иконка сниженного шума"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <p>Сниженный уровень шума</p>
+                <div class="accent-sub">Комфортная рабочая среда</div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- БЛОК 5: КОНСТРУКЦИЯ И МАТЕРИАЛЫ -->
-    <section class="solutions-block solutions-block-5">
+      <!-- БЛОК 5: КОНСТРУКЦИЯ И МАТЕРИАЛЫ -->
+      <section class="solutions-block solutions-block-5">
         <div class="container">
-            <div class="solutions-content solutions-content-alt">
-                <div class="solutions-accent">
-                    <div class="materials-showcase">
-                        <div class="material-item">
-                            <div class="material-icon">
-                                <svg viewBox="0 0 40 40" fill="none">
-                                    <rect x="8" y="12" width="24" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
-                                    <circle cx="15" cy="22" r="2" fill="currentColor"/>
-                                    <circle cx="20" cy="22" r="2" fill="currentColor"/>
-                                    <circle cx="25" cy="22" r="2" fill="currentColor"/>
-                                    <path d="M8 28H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                    <rect x="14" y="28" width="12" height="4" stroke="currentColor" stroke-width="1.5"/>
-                                </svg>
-                            </div>
-                            <div class="material-name">Металлическое основание</div>
-                            <div class="material-detail">Толщина 3 мм</div>
-                        </div>
-                        <div class="material-item">
-                            <div class="material-icon">
-                                <svg viewBox="0 0 40 40" fill="none">
-                                    <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2"/>
-                                    <path d="M20 14V20M20 20L26 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <circle cx="14" cy="12" r="2" fill="currentColor"/>
-                                    <circle cx="26" cy="28" r="2" fill="currentColor"/>
-                                </svg>
-                            </div>
-                            <div class="material-name">Качественные комплектующие</div>
-                            <div class="material-detail">Проверенные партнеры</div>
-                        </div>
-                        <div class="material-item">
-                            <div class="material-icon">
-                                <svg viewBox="0 0 40 40" fill="none">
-                                    <path d="M20 8L26 12V28C26 32 20 34 20 34C20 34 14 32 14 28V12L20 8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                                    <path d="M16 20L19 23L24 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="material-name">Износостойкие материалы</div>
-                            <div class="material-detail">100 000+ циклов</div>
-                        </div>
-                    </div>
+          <h2 class="solutions-block-title">Инженерная конструкция и материалы</h2>
+          <div class="solutions-content solutions-content-alt">
+            <div class="solutions-accent">
+              <div class="materials-showcase">
+                <div class="material-item">
+                  
+                  <div class="material-name">Жёсткое основание</div>
+                  <div class="material-detail">Обеспечивает стабильность конструкции и отсутствие вибраций</div>
                 </div>
-                <div class="solutions-text">
-                    <h2>Конструкция и материалы</h2>
-                    <p>Конструкция оборудования MAXAS разрабатывается с приоритетом стабильности, удобства и простоты обслуживания.</p>
-                    <p>Мы используем износостойкие материалы и продуманные конструктивные решения, которые обеспечивают надёжную фиксацию, удобный доступ к расходным элементам и долгий срок службы оборудования в профессиональной среде.</p>
-                    <p>MAXAS рассматривает рабочее место как единую систему, где оборудование и мебель проектируются с учётом совместимости, эргономики и требований монтажа.</p>
+                <div class="material-item">
+                  
+                  <div class="material-name">Продуманная внутренняя компоновка</div>
+                  <div class="material-detail">Удобный доступ к фильтру и обслуживаемым элементам</div>
                 </div>
+                <div class="material-item">
+                  
+                  <div class="material-name">Материалы для интенсивной эксплуатации</div>
+                  <div class="material-detail">Сохраняют характеристики при ежедневной нагрузке</div>
+                </div>
+              </div>
             </div>
+            <div class="solutions-text">
+              <p>
+                Оборудование MAXAS спроектировано как единая конструкция,
+                ориентированная на стабильную работу, удобство обслуживания и
+                долговечность в профессиональной среде.
+              </p>
+              <p>
+                Каждый элемент конструкции — от основания до креплений —
+                рассчитан на ежедневную эксплуатацию без потери жёсткости и
+                точности.
+              </p>
+              <p>
+                Используемые материалы и конструктивные решения обеспечивают
+                надёжную фиксацию, быстрый доступ к обслуживаемым элементам и
+                устойчивую работу при постоянной нагрузке.
+              </p>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- БЛОК 6: СЕРВИС И ПОДДЕРЖКА -->
-    <section class="solutions-block solutions-block-6">
+      <!-- БЛОК 6: СЕРВИС И ПОДДЕРЖКА -->
+      <section class="solutions-block solutions-block-6">
         <div class="container">
-            <div class="solutions-content">
-                <div class="solutions-text">
-                    <h2>Сервис и поддержка</h2>
-                    <p>Технологии имеют ценность только тогда, когда они поддержаны сервисом.</p>
-                    <p>MAXAS обеспечивает документацию, доступность расходных материалов и сервисную поддержку, необходимую для стабильной и предсказуемой эксплуатации оборудования.</p>
-                    <div class="service-grid">
-                        <div class="service-item">
-                            <div class="service-number">1</div>
-                            <div class="service-title">Техническая документация</div>
-                            <p>Полные инструкции на русском, английском и других языках</p>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-number">2</div>
-                            <div class="service-title">Расходные материалы</div>
-                            <p>Легко доступны и всегда в наличии у наших партнеров</p>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-number">3</div>
-                            <div class="service-title">Гарантийное обслуживание</div>
-                            <p>Полная поддержка на протяжении всего срока эксплуатации</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="solutions-accent">
-                    <div class="accent-box accent-box-large">
-                        <div class="accent-icon">
-                            <svg viewBox="0 0 80 80" fill="none">
-                                <path d="M40 20C29 20 20 29 20 40C20 51 29 60 40 60C51 60 60 51 60 40C60 29 51 20 40 20Z" stroke="currentColor" stroke-width="2"/>
-                                <path d="M40 35V45M35 40H45" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                                <circle cx="40" cy="40" r="5" stroke="currentColor" stroke-width="1" opacity="0.3"/>
-                            </svg>
-                        </div>
-                        <p>Полная техническая поддержка</p>
-                        <div class="accent-sub">24/7 консультации для партнеров</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+          <h2 class="solutions-block-title">Сервис и поддержка</h2>
+          <div class="solutions-block-intro">
+            <p>
+              Оборудование имеет ценность только тогда, когда его можно стабильно использовать в работе.
 
-    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК: СРАВНЕНИЕ ФОРМАТОВ МОДЕЛЕЙ -->
-    <section class="solutions-block solutions-block-compare-formats">
+            </p>
+            <p>
+              MAXAS обеспечивает сервисную поддержку, доступность расходных материалов и техническую документацию, необходимые для предсказуемой и непрерывной эксплуатации.
+
+            </p>
+          </div>
+          <div class="solutions-content">
+            <div class="solutions-text">
+              <div class="service-grid">
+                <div class="service-item">
+                  <div class="service-number">1</div>
+                  <div class="service-title">Техническая документация</div>
+                  <p>
+                    Полные инструкции и рекомендации по эксплуатации
+                  </p>
+                </div>
+                <div class="service-item">
+                  <div class="service-number">2</div>
+                  <div class="service-title">Доступность расходных материалов</div>
+                  <p>Фильтры и комплектующие всегда доступны для замены</p>
+                </div>
+                <div class="service-item">
+                  <div class="service-number">3</div>
+                  <div class="service-title">Сервисное обслуживание</div>
+                  <p>Поддержка на всех этапах эксплуатации оборудования</p>
+                </div>
+              </div>
+            </div>
+            <div class="solutions-accent">
+              <div class="accent-box accent-box-large">
+                <div class="accent-icon">
+                  <img src="../assets/images/service.svg" alt="Иконка сервиса" loading="lazy" decoding="async">
+                </div>
+                <p>Техническая поддержка для партнёров</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ПРИЗЫВ К ДЕЙСТВИЮ -->
+      <section class="solutions-cta">
         <div class="container">
-            <h2 class="formats-title">Сравнение форматов: настольные и встраиваемые</h2>
-            <p class="formats-intro">Выбор зависит от формата рабочего места, требований к мобильности и сценария ежедневной нагрузки.</p>
-            <div class="formats-grid">
-                <article class="format-compare-card">
-                    <h3>Настольные модели</h3>
-                    <ul>
-                        <li>Быстрое размещение без встраивания</li>
-                        <li>Гибкая перестановка рабочего места</li>
-                        <li>Подходят для студий с переменной нагрузкой</li>
-                    </ul>
-                </article>
-                <article class="format-compare-card">
-                    <h3>Встраиваемые модели</h3>
-                    <ul>
-                        <li>Интеграция в столешницу и чистая рабочая зона</li>
-                        <li>Стабильная позиция оборудования при интенсивной работе</li>
-                        <li>Оптимальны для стационарных профессиональных мест</li>
-                    </ul>
-                </article>
+          <div class="cta-content">
+            <h2>Как это реализовано в оборудовании MAXAS</h2>
+            <p>Каждая модель разработана с учётом реальных условий эксплуатации и требований профессиональной среды.</p>
+            <div class="cta-actions">
+              <a href="products.html" class="cta-button">Перейти в каталог</a>
+              <a href="b2b.html" class="cta-button cta-button-ghost">Партнёрам</a>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- ПРИЗЫВ К ДЕЙСТВИЮ -->
-    <section class="solutions-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Готовы узнать больше?</h2>
-                <p>Ознакомьтесь с полным каталогом оборудования MAXAS</p>
-                <div class="cta-actions">
-                    <a href="products.html" class="cta-button">Перейти в каталог</a>
-                    <a href="b2b.html" class="cta-button cta-button-ghost">Перейти в B2B</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+      </section>
     </main>
 
     <!-- ПОДВАЛ САЙТА -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>О компании</h3>
-                    <p>MAXAS — разработчик и производитель профессионального оборудования для салонов красоты и маникюра.</p>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>О компании</h3>
+            <p>
+              MAXAS — разработчик и производитель профессионального оборудования
+              для салонов красоты и маникюра.
+            </p>
+          </div>
 
-                <div class="footer-section">
-                    <h3>Каталог</h3>
-                    <ul>
-                        <li><a href="/pages/products.html" class="footer-link">Все для маникюра</a></li>
-                        <li><a href="/pages/products.html" class="footer-link">Все для педикюра</a></li>
-                        <li><a href="/pages/products.html" class="footer-link">Инструменты</a></li>
-                        <li><a href="/pages/products.html" class="footer-link">Для депиляции</a></li>
-                    </ul>
-                </div>
+          <div class="footer-section">
+            <h3>Каталог</h3>
+            <ul>
+              <li>
+                <a href="/pages/products.html" class="footer-link"
+                  >Все для маникюра</a
+                >
+              </li>
+              <li>
+                <a href="/pages/products.html" class="footer-link"
+                  >Все для педикюра</a
+                >
+              </li>
+              <li>
+                <a href="/pages/products.html" class="footer-link"
+                  >Инструменты</a
+                >
+              </li>
+              <li>
+                <a href="/pages/products.html" class="footer-link"
+                  >Для депиляции</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <div class="footer-section">
-                    <h3>Контакты</h3>
-                    <p>+38 (099) 000 00 00</p>
-                    <p>+38 (099) 000 00 00</p>
-                    <p>Пн-Вс: 9:00 - 18:00</p>
-                </div>
+          <div class="footer-section">
+            <h3>Контакты</h3>
+            <p>+38 (099) 000 00 00</p>
+            <p>+38 (099) 000 00 00</p>
+            <p>Пн-Вс: 9:00 - 18:00</p>
+          </div>
 
-                <div class="footer-section">
-                    <h3>Социальные сети</h3>
-                    <div class="social-links">
-                        <a href="https://facebook.com" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V5h-2c-2.8 0-5 2.2-5 5v2H7v3h2v4h3v-4h3l1-3h-4v-2c0-1.1.9-2 2-2z"/></svg></a>
-                        <a href="https://instagram.com" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 2.2a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM17.5 6.8a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg></a>
-                        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zM5 10h3v9H5v-9zm5 0h2.9v1.3h.1c.4-.8 1.5-1.6 3.1-1.6 3.3 0 3.9 2.2 3.9 5V19h-3v-3.8c0-.9 0-2.1-1.3-2.1s-1.5 1-1.5 2V19h-3v-9z"/></svg></a>
-                    </div>
-                </div>
+          <div class="footer-section">
+            <h3>Социальные сети</h3>
+            <div class="social-links">
+              <a
+                href="https://facebook.com"
+                class="social-link"
+                aria-label="Facebook"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M14 8h2V5h-2c-2.8 0-5 2.2-5 5v2H7v3h2v4h3v-4h3l1-3h-4v-2c0-1.1.9-2 2-2z"
+                  /></svg
+              ></a>
+              <a
+                href="https://instagram.com"
+                class="social-link"
+                aria-label="Instagram"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 2.2a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM17.5 6.8a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
+                  /></svg
+              ></a>
+              <a
+                href="https://linkedin.com"
+                class="social-link"
+                aria-label="LinkedIn"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M6.5 8.5a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zM5 10h3v9H5v-9zm5 0h2.9v1.3h.1c.4-.8 1.5-1.6 3.1-1.6 3.3 0 3.9 2.2 3.9 5V19h-3v-3.8c0-.9 0-2.1-1.3-2.1s-1.5 1-1.5 2V19h-3v-9z"
+                  /></svg
+              ></a>
             </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 MAXAS. Все права защищены.</p>
-            </div>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 MAXAS. Все права защищены.</p>
+        </div>
+      </div>
     </footer>
     <script src="../assets/js/main.js?v=20260326-1"></script>
-</body>
+  </body>
 </html>

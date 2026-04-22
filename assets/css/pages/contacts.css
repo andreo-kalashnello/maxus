@@ -3,7 +3,7 @@
    ============================================ */
 
 .contacts-hero {
-    padding: 100px 0;
+    padding: 40px 0;
     background: linear-gradient(135deg, var(--accent-light) 0%, transparent 100%);
     text-align: center;
 }
@@ -30,7 +30,7 @@
    ============================================ */
 
 .contacts-info {
-    padding: 70px 0 90px;
+    padding: 40px 0;
 }
 
 .contacts-grid {
@@ -91,7 +91,7 @@
    ============================================ */
 
 .contacts-form-section {
-    padding: 80px 0;
+    padding: 40px 0;
     background-color: var(--accent-light);
 }
 
@@ -128,7 +128,6 @@
    ============================================ */
 
 .contacts-map {
-    margin-bottom: 80px;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -149,15 +148,15 @@
    ============================================ */
 
 .contacts-faq {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .contacts-faq h2 {
     font-family: var(--font-serif);
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 60px;
+    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -597,7 +596,7 @@
 
 @media (max-width: 768px) {
     .contacts-hero {
-        padding: 60px 0;
+        padding: 20px 0;
     }
 
     .contacts-hero h1 {
@@ -614,7 +613,7 @@
     }
 
     .contacts-info {
-        padding: 50px 0 64px;
+        padding: 40px 0;
     }
 
     .contact-card {
@@ -624,17 +623,19 @@
     .contact-card h3 {
         font-size: 20px;
     }
-
+    .contact-card p {
+        font-size: 14px;
+    }       
     .contacts-form-section,
     .contacts-faq,
     .contacts-hero ~ section.about-section,
     .contacts-hero ~ section.company-section {
-        padding: 60px 0;
+        padding: 20px 0;
     }
 
     .contacts-faq h2 {
         font-size: 32px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .faq-item {
@@ -671,10 +672,6 @@
 }
 
 @media (max-width: 480px) {
-    .contacts-hero {
-        padding: 50px 0;
-    }
-
     .contacts-hero h1 {
         font-size: 24px;
         margin-bottom: 16px;
@@ -686,10 +683,6 @@
 
     .contacts-grid {
         gap: 16px;
-    }
-
-    .contacts-info {
-        padding: 42px 0 54px;
     }
 
     .contact-card {
@@ -711,10 +704,6 @@
         font-size: 13px;
     }
 
-    .contacts-faq h2 {
-        font-size: 24px;
-        margin-bottom: 32px;
-    }
 
     .faq-question {
         padding: 14px;

@@ -4,9 +4,18 @@
 
 .home-page .about-section {
     position: relative;
-    padding: 82px 0;
+    padding: 40px 0;
     background: #fffaf7;
     overflow: hidden;
+}
+
+.home-page .about-section.about-values,
+.home-page .about-section.about-tech {
+    background-image: radial-gradient(ellipse at 14% 68%, rgba(216, 173, 179, 0.14) 0%, rgba(216, 173, 179, 0) 52%), linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../../images/branch_transparent.png"), linear-gradient(135deg, var(--accent-light) 0%, rgba(255, 255, 255, 0.92) 100%);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 0% 60%;
+    background-size: 100% 100%, 100% 100%, auto 190%, 100% 100%;
+    background-color: var(--accent-light);
 }
 
 .home-page .about-background {
@@ -1460,7 +1469,13 @@
 @media (max-width: 768px) {
     .home-page .about-section,
     .home-page .company-section {
-        padding: 60px 0;
+        padding: 40px 0;
+    }
+
+    .home-page .about-section.about-values,
+    .home-page .about-section.about-tech {
+        background-size: 100% 100%, 100% 100%, auto 145%, 100% 100%;
+        background-position: 14% 68%, center, -24% 65%, center;
     }
 
     .home-page .about-title,
@@ -1569,9 +1584,10 @@
 }
 
 @media (max-width: 480px) {
-    .home-page .about-section,
-    .home-page .company-section {
-        padding: 50px 0;
+    .home-page .about-section.about-values,
+    .home-page .about-section.about-tech {
+        background-size: 100% 100%, 100% 100%, auto 118%, 100% 100%;
+        background-position: 18% 72%, center, -34% 70%, center;
     }
 
     .home-page .about-title,

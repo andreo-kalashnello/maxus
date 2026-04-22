@@ -3,7 +3,7 @@
    ============================================ */
 
 .b2b-hero {
-    padding: 100px 0;
+    padding: 40px 0;
     background: linear-gradient(135deg, var(--accent-light) 0%, transparent 100%);
     text-align: center;
 }
@@ -40,7 +40,7 @@
    ============================================ */
 
 .b2b-block {
-    padding: 100px 0;
+    padding: 40px 0;
     border-bottom: 1px solid var(--border);
 }
 
@@ -433,7 +433,7 @@
 
 @media (max-width: 768px) {
     .b2b-hero {
-        padding: 60px 0;
+        padding: 20px 0;
     }
 
     .b2b-hero-content h1 {
@@ -484,9 +484,6 @@
 }
 
 @media (max-width: 480px) {
-    .b2b-hero {
-        padding: 50px 0;
-    }
 
     .b2b-hero-content h1 {
         font-size: 24px;
@@ -501,9 +498,6 @@
         font-size: 13px;
     }
 
-    .b2b-block {
-        padding: 50px 0;
-    }
 
     .b2b-text h2 {
         font-size: 20px;

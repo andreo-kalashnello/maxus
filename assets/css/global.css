@@ -14,8 +14,8 @@
     --border: #E8D8D8;            /* Light border */
     --shadow: rgba(0, 0, 0, 0.12);
     
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Roboto', sans-serif;
+    --font-sans: 'Roboto', sans-serif;
     --transition: all 0.3s ease;
 }
 

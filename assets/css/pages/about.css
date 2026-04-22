@@ -6,7 +6,7 @@
     position: relative;
     overflow: hidden;
     isolation: isolate;
-    padding: 100px 0;
+    padding: 40px 0;
     background-image: radial-gradient(ellipse at 14% 68%, rgba(216, 173, 179, 0.14) 0%, rgba(216, 173, 179, 0) 52%), linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../../images/branch_transparent.png"), linear-gradient(135deg, var(--accent-light) 0%, rgba(255, 255, 255, 0.92) 100%);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 14% 68%, center, -16% 60%, center;
@@ -97,7 +97,7 @@
    ============================================ */
 
 .about-values {
-    padding: 100px 0;
+    padding: 40px 0;
     background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../../images/branch_transparent.png"), linear-gradient(135deg, var(--accent-light) 0%, var(--accent-light) 100%);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center, right center, center;
@@ -105,12 +105,13 @@
     background-color: var(--accent-light);
 }
 
+
 .about-values h2 {
     font-family: var(--font-serif);
     font-size: 48px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 60px;
+    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -177,7 +178,7 @@
     font-size: 48px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 60px;
+    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -356,6 +357,7 @@
     background-color: var(--accent-light);
 }
 
+
 .tech-content {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
@@ -467,7 +469,7 @@
     font-size: 48px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 60px;
+    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -657,7 +659,7 @@
 
 @media (max-width: 768px) {
     .about-hero {
-        padding: 60px 0;
+        padding: 20px 0;
     }
 
     .about-hero-content h1 {
@@ -685,7 +687,6 @@
     .about-market h2,
     .cta-box h2 {
         font-size: 32px;
-        margin-bottom: 40px;
     }
 
     .values-grid,
@@ -731,9 +732,6 @@
 }
 
 @media (max-width: 480px) {
-    .about-hero {
-        padding: 50px 0;
-    }
 
     .about-hero-content h1 {
         font-size: 36px;
