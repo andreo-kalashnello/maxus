@@ -7,6 +7,7 @@
     overflow: hidden;
     isolation: isolate;
     padding: 40px 0;
+    padding-bottom: 20px;
     background-image: radial-gradient(ellipse at 14% 68%, rgba(216, 173, 179, 0.14) 0%, rgba(216, 173, 179, 0) 52%), linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../../images/branch_transparent.png"), linear-gradient(135deg, var(--accent-light) 0%, rgba(255, 255, 255, 0.92) 100%);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 14% 68%, center, -16% 60%, center;
@@ -20,7 +21,7 @@
 
 .about-hero-wordmark {
     display: block;
-    width: min(560px, 88vw);
+    width: min(330px, 88vw);
     height: auto;
     margin: 0 auto;
 }
@@ -48,11 +49,12 @@
 
 .about-text h2 {
     font-family: var(--font-serif);
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     line-height: 1.2;
+    text-align: center;
 }
 
 .about-text p {
@@ -108,10 +110,10 @@
 
 .about-values h2 {
     font-family: var(--font-serif);
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 32px;
+    margin-bottom: 18px;
     text-align: center;
 }
 
@@ -153,7 +155,7 @@
 
 .value-card h3 {
     font-family: var(--font-serif);
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--primary-dark);
     margin-bottom: 12px;
@@ -175,10 +177,10 @@
 
 .about-production h2 {
     font-family: var(--font-serif);
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 32px;
+    margin-bottom: 18px;
     text-align: center;
 }
 
@@ -208,7 +210,7 @@
 
 .production-item h3 {
     font-family: var(--font-serif);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--primary-dark);
     margin-bottom: 12px;
@@ -367,11 +369,12 @@
 
 .tech-text h2 {
     font-family: var(--font-serif);
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     line-height: 1.2;
+    text-align: center;
 }
 
 .tech-text p {
@@ -388,7 +391,7 @@
 .tech-list li {
     font-size: 15px;
     color: var(--text-gray);
-    padding: 12px 0;
+    padding: 6px 0;
     padding-left: 28px;
     position: relative;
     line-height: 1.6;
@@ -466,10 +469,10 @@
 
 .about-market h2 {
     font-family: var(--font-serif);
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 32px;
+    margin-bottom: 18px;
     text-align: center;
 }
 
@@ -519,6 +522,7 @@
 
 .home-page .about-section.about-cta {
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    padding: 30px 0;
 }
 
 .about-cta::before,
@@ -574,7 +578,7 @@
 .cta-box h2 {
     font-family: var(--font-serif);
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 15px;
     line-height: 1.2;
 }
@@ -628,16 +632,6 @@
         font-size: 72px;
     }
 
-    .about-text h2,
-    .about-values h2,
-    .about-production h2,
-    .about-history h2,
-    .brand-image-content h2,
-    .about-market h2,
-    .cta-box h2 {
-        font-size: 40px;
-    }
-
     .tech-content,
     .brand-image-layout {
         grid-template-columns: 1fr;
@@ -679,16 +673,7 @@
         padding: 60px 0;
     }
 
-    .about-text h2,
-    .about-values h2,
-    .about-production h2,
-    .about-history h2,
-    .brand-image-content h2,
-    .about-market h2,
-    .cta-box h2 {
-        font-size: 32px;
-    }
-
+ 
     .values-grid,
     .production-grid,
     .market-content,
@@ -757,17 +742,6 @@
         padding: 50px 0;
     }
 
-    .about-text h2,
-    .about-values h2,
-    .about-production h2,
-    .about-history h2,
-    .brand-image-content h2,
-    .about-market h2,
-    .cta-box h2 {
-        font-size: 24px;
-        margin-bottom: 30px;
-    }
-
     .values-grid,
     .production-grid,
     .market-content,
@@ -783,19 +757,7 @@
         padding: 20px;
     }
 
-    .value-card h3,
-    .production-item h3,
-    .market-block h3,
-    .history-item h3 {
-        font-size: 18px;
-    }
 
-    .tech-text h2 {
-        font-size: 22px;
-        line-height: 1.25;
-        overflow-wrap: anywhere;
-        word-break: break-word;
-    }
 
     .tech-text p,
     .tech-list li {
