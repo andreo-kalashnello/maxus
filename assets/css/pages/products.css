@@ -4,10 +4,10 @@
 
 :is(.products-page, .model-color-page, .model-item-page) .page-title {
     font-family: var(--font-serif);
-    font-size: 54px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     line-height: 1.2;
 }
 
@@ -29,7 +29,7 @@
     font-size: 18px;
     line-height: 1.8;
     color: var(--text-gray);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 :is(.products-page, .model-color-page, .model-item-page) .page-subtle {
@@ -50,10 +50,10 @@
 
 .catalog-top {
     background: linear-gradient(135deg, var(--accent-light) 0%, transparent 100%);
-    padding: 50px 30px;
+    padding: 20px;
     border-radius: 12px;
-    margin-bottom: 50px;
-    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .category-chips {
@@ -82,13 +82,10 @@
     color: var(--text-light);
 }
 
-.desktop-intro {
-    margin-bottom: 60px;
-}
 
 .products-page .desktop-intro-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 34px;
     align-items: center;
 }
@@ -106,7 +103,7 @@
 
 .desktop-intro h2 {
     font-family: var(--font-serif);
-    font-size: 44px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
     margin-bottom: 20px;
@@ -117,6 +114,7 @@
     color: var(--text-gray);
     line-height: 1.8;
     max-width: 700px;
+    margin-bottom: 14px;
 }
 
 /* ============================================
@@ -417,22 +415,22 @@
    ============================================ */
 
 .product-benefits {
-    margin: 60px 0;
+    padding: 30px 0;
 }
 
 .product-benefits h2,
 .collection-block h2,
 .model-compare h2 {
     font-family: var(--font-serif);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 40px;
+    margin-bottom: 18px;
     text-align: center;
 }
 
 .products-page .catalog-selector {
-    margin: 18px 0 72px;
+    padding: 30px 0px;
 }
 
 .products-page .selector-group {
@@ -441,12 +439,12 @@
 
 .products-page .selector-title {
     font-family: var(--font-serif);
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     line-height: 1.15;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 .products-page .selector-subtitle {
@@ -454,7 +452,7 @@
     font-size: 15px;
     line-height: 1.65;
     color: var(--text-gray);
-    max-width: 720px;
+    text-align: center;
 }
 
 .products-page .selector-grid {
@@ -496,7 +494,7 @@
 .products-page .selector-card-core h3 {
     margin: 0 0 12px;
     font-family: var(--font-serif);
-    font-size: 29px;
+    font-size: 20px;
     line-height: 1.2;
     color: var(--primary-dark);
 }
@@ -535,7 +533,7 @@
 
 .products-page .selector-divider {
     height: 1px;
-    margin: 64px 0;
+    margin: 40px 0;
     background: linear-gradient(90deg, rgba(196, 152, 162, 0) 0%, rgba(196, 152, 162, 0.62) 50%, rgba(196, 152, 162, 0) 100%);
 }
 
@@ -642,7 +640,7 @@
 .benefits-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 16px;
 }
 
 .collection-block {
@@ -734,7 +732,7 @@
 
 .products-page .model-catalog-block h2 {
     font-family: var(--font-serif);
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--primary-dark);
     text-align: center;
@@ -751,7 +749,7 @@
 
 .products-page .model-catalog-grid {
     margin-bottom: 0;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
 }
 
@@ -829,7 +827,6 @@ aspect-ratio: 4 / 3 ;
     grid-template-columns: 1.1fr 1fr;
     gap: 34px;
     align-items: center;
-    margin: 24px 0 54px;
     padding: 28px;
     border: 1px solid var(--border);
     border-radius: 12px;
@@ -868,9 +865,9 @@ aspect-ratio: 4 / 3 ;
 
 .catalog-info-panels {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .info-panel {

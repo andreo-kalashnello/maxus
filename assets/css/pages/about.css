@@ -125,7 +125,7 @@
 
 .value-card {
     background: white;
-    padding: 40px;
+    padding: 20px;
     border-radius: 8px;
     border: 1px solid var(--border);
     transition: var(--transition);
@@ -192,7 +192,7 @@
 
 .production-item {
     position: relative;
-    padding: 40px;
+    padding: 20px;
     background: linear-gradient(135deg, var(--accent-light) 0%, transparent 100%);
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -483,7 +483,7 @@
 }
 
 .market-block {
-    padding: 40px;
+    padding: 20px;
     background: white;
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -585,7 +585,7 @@
 
 .cta-box p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
     opacity: 0.95;
 }
 
