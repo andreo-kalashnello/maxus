@@ -714,6 +714,22 @@
     .home-page .about-section.about-cta::after {
         display: none;
     }
+    .cta-box h2{
+        font-size: 32px;
+    }
+    .cta-title-wordmark{
+        height: 20px;
+    }
+     .tech-content,
+    .brand-image-layout {
+        gap: 20px;
+    }
+    .tech-highlight {
+        padding: 20px;
+    }
+    .tech-quote-brand{
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 480px) {

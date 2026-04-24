@@ -434,7 +434,7 @@
     justify-content: center;
     gap: 0px;
     padding: 15px;
-    background: linear-gradient(135deg, var(--accent-light) 0%, white 100%);
+    background: linear-gradient(to right, #e5c5d0 0%, #f0ebe8 100%);
     border: 1px solid var(--border);
     border-radius: 8px;
     align-items: flex-start;

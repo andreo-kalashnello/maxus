@@ -12,9 +12,9 @@
 
 .instructions-hero-layout {
     display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-columns: 2.5fr 0.85fr;
     gap: 36px;
-    align-items: center;
+    align-items: flex-start;
     background: linear-gradient(135deg, #fff5f7 0%, #fff 65%);
     border: 1px solid #eedfe2;
     border-radius: 18px;
@@ -51,7 +51,7 @@
 }
 
 .instructions-block {
-    padding: 18px 0 56px;
+    padding: 0 20px;
 }
 
 .instructions-block-soft {
@@ -231,7 +231,7 @@
 }
 
 .instructions-cta {
-    padding: 24px 0 76px;
+    padding: 20px 0;
 }
 
 .instructions-cta-content {
@@ -289,7 +289,7 @@
 
 @media (max-width: 768px) {
     .instructions-hero {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     .instructions-hero-layout {

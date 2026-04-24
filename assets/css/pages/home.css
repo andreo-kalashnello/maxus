@@ -1467,10 +1467,6 @@
 }
 
 @media (max-width: 768px) {
-    .home-page .about-section,
-    .home-page .company-section {
-        padding: 40px 0;
-    }
 
     .home-page .about-section.about-values,
     .home-page .about-section.about-tech {

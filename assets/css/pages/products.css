@@ -20,8 +20,8 @@
 
 .products-page .products-brand-wordmark {
     width: auto;
-    height: 1em;
-    max-width: 4.6em;
+    height: 0.7em;
+    max-width: 6.6em;
     transform: translateY(0.03em);
 }
 
@@ -52,9 +52,10 @@
     background: linear-gradient(135deg, var(--accent-light) 0%, transparent 100%);
     padding: 20px;
     border-radius: 12px;
-    margin-bottom: 20px;
     margin-top: 20px;
 }
+
+
 
 .category-chips {
     display: flex;
@@ -478,10 +479,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    min-height: 308px;
+    min-height: 208px;
     padding: 26px 24px 24px;
     border: 1px solid #e4ccd2;
-    background: linear-gradient(145deg, #f8eaee 0%, #fff5f7 100%);
+    background: linear-gradient(to right, #eedde4 0%, #f0ebe8 100%);
     box-shadow: 0 14px 36px rgba(180, 132, 141, 0.16);
     transition: var(--transition);
 }
@@ -532,9 +533,27 @@
 }
 
 .products-page .selector-divider {
-    height: 1px;
+    height: 24px;
     margin: 40px 0;
-    background: linear-gradient(90deg, rgba(196, 152, 162, 0) 0%, rgba(196, 152, 162, 0.62) 50%, rgba(196, 152, 162, 0) 100%);
+    position: relative;
+    background: linear-gradient(90deg, rgba(196, 152, 162, 0) 0%, rgba(196, 152, 162, 0.2) 15%, rgba(196, 152, 162, 0.62) 50%, rgba(196, 152, 162, 0.2) 85%, rgba(196, 152, 162, 0) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+}
+
+.products-page .selector-divider::before {
+    content: '‹   ◆   ›';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 0 16px;
+    color: #c48894;
+    font-size: 12px;
+    letter-spacing: 12px;
+    white-space: nowrap;
 }
 
 
@@ -630,11 +649,15 @@
 }
 
 .products-page .selector-card-accessory h3 {
-    margin: 0;
+    margin: 0 0 14px;
     font-family: var(--font-sans);
     font-size: 22px;
     line-height: 1.35;
     color: #5f4f53;
+}
+
+.products-page .selector-card-accessory .btn-secondary {
+    margin-top: auto;
 }
 
 .benefits-grid {
@@ -749,9 +772,11 @@
 
 .products-page .model-catalog-grid {
     margin-bottom: 0;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 20px;
 }
+
+
 
 .products-page .model-catalog-grid .model-catalog-card {
     display: flex;
@@ -1403,12 +1428,21 @@ aspect-ratio: 4 / 3 ;
 }
 
 @media (max-width: 768px) {
-    :is(.products-page, .model-color-page, .model-item-page) .page-title {
-        font-size: 34px;
+
+    .catalog-top {
+        margin-top: 20px;
+        margin-bottom: 0;
     }
 
-    .products-page .catalog-selector {
-        margin-bottom: 42px;
+    .catalog-top .page-title{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+    :is(.products-page, .model-color-page, .model-item-page) .page-title {
+        font-size: 34px;
     }
 
     .products-page .selector-title {
@@ -1603,11 +1637,11 @@ aspect-ratio: 4 / 3 ;
     }
 
     .products-page .selector-title {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .products-page .selector-subtitle {
-        font-size: 13px;
+        font-size: 16px;
         margin-bottom: 14px;
     }
 
@@ -1622,10 +1656,6 @@ aspect-ratio: 4 / 3 ;
     .products-page .selector-card-core p {
         font-size: 14px;
         margin-bottom: 14px;
-    }
-
-    .products-page .selector-card-accessory {
-        padding: 14px;
     }
 
     .products-page .selector-card-accessory h3 {

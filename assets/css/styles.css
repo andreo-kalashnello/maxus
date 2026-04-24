@@ -26,8 +26,18 @@
    ADDITIONAL GLOBAL STYLES
    ============================================ */
 
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+        min-height: 100vh;
+}
+
 main{
     padding-top: 81px;
+    flex-grow: 1;
+
+    
 }
 
 /* Content sections layout */
@@ -603,6 +613,9 @@ main{
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
+    main {
+        padding-top: 64px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -673,5 +686,10 @@ main{
     .footer-section p,
     .footer-link {
         font-size: 12px;
+    }
+}
+@media (max-width: 425px) {
+    main{
+        padding-top: 56px;
     }
 }
