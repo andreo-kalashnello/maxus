@@ -434,7 +434,7 @@
     justify-content: center;
     gap: 0px;
     padding: 15px;
-    background: linear-gradient(to right, #e5c5d0 0%, #f0ebe8 100%);
+    background: linear-gradient(to right, #e2becb 0%, #f0ebe8 100%);
     border: 1px solid var(--border);
     border-radius: 8px;
     align-items: flex-start;
@@ -695,6 +695,23 @@
     object-fit: contain;
     display: block;
 }
+
+
+.solutions-cta .products-brand-inline {
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap;
+    line-height: 1;
+} 
+
+
+.solutions-cta .products-brand-wordmark {
+    width: auto;
+    height: 0.7em;
+    max-width: 6.6em;
+    transform: translateY(0.03em);
+}
+
 
 /* ============================================
    SOLUTIONS PAGE RESPONSIVE

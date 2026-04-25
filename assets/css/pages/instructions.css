@@ -7,7 +7,7 @@
 }
 
 .instructions-hero {
-    padding: 64px 0 40px;
+    padding: 40px 0 20px;
 }
 
 .instructions-hero-layout {
@@ -18,13 +18,13 @@
     background: linear-gradient(135deg, #fff5f7 0%, #fff 65%);
     border: 1px solid #eedfe2;
     border-radius: 18px;
-    padding: 42px;
+    padding: 36px;
     box-shadow: 0 18px 46px rgba(170, 120, 132, 0.14);
 }
 
 .instructions-hero-text h1 {
     font-family: var(--font-serif);
-    font-size: 52px;
+    font-size: 28px;
     line-height: 1.14;
     color: var(--primary-dark);
     margin-bottom: 18px;
@@ -35,7 +35,6 @@
     color: var(--text-gray);
     line-height: 1.75;
     margin-bottom: 14px;
-    max-width: 640px;
 }
 
 .instructions-hero-text p:last-child {
@@ -51,7 +50,7 @@
 }
 
 .instructions-block {
-    padding: 0 20px;
+    padding: 20px 0px;
 }
 
 .instructions-block-soft {
@@ -60,10 +59,10 @@
 
 .instructions-section-title {
     font-family: var(--font-serif);
-    font-size: 34px;
+    font-size: 24px;
     line-height: 1.24;
     color: var(--primary-dark);
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 .instructions-filter {
@@ -166,7 +165,7 @@
     background: linear-gradient(150deg, #fff 0%, #fff5f8 90%);
     border: 1px solid #e9d9de;
     border-radius: 12px;
-    padding: 24px;
+    padding: 20px;
 }
 
 .language-card h3 {
@@ -225,7 +224,7 @@
 }
 
 .instructions-steps-table td:first-child {
-    width: 120px;
+    width: 80px;
     font-weight: 700;
     color: var(--primary);
 }
@@ -245,7 +244,7 @@
 
 .instructions-cta-content h2 {
     font-family: var(--font-serif);
-    font-size: 40px;
+    font-size: 24px;
     line-height: 1.2;
     margin-bottom: 12px;
 }
@@ -276,15 +275,20 @@
     border-color: #fff;
 }
 
+.instructions-hero-layout .products-brand-wordmark {
+    width: auto;
+    height: 0.7em;
+    max-width: 6.6em;
+    transform: translateY(0.03em);
+}
+
 @media (max-width: 1024px) {
     .instructions-hero-layout {
         grid-template-columns: 1fr;
         padding: 34px;
+        gap: 20px;
     }
 
-    .instructions-hero-text h1 {
-        font-size: 42px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -296,9 +300,7 @@
         padding: 24px;
     }
 
-    .instructions-hero-text h1 {
-        font-size: 31px;
-    }
+
 
     .instructions-hero-text p {
         font-size: 15px;
